@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>一時保存</label>
+        <language>ja</language>
+        <name>sys_ui_action</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-05-22 07:33:28</sys_created_on>
+        <sys_id>7d67bb14cc129b008d785942d9b56100</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>一時保存</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_translated_7d67bb14cc129b008d785942d9b56100</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-06 00:25:08</sys_updated_on>
+        <value>TempSaved</value>
+    </sys_translated>
+</record_update>

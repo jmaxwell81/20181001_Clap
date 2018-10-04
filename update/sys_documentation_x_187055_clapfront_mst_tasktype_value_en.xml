@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="value" label="Value" language="en" table="x_187055_clapfront_mst_tasktype">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <help/>
+            <hint/>
+            <label>Value</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_tasktype</name>
+            <plural>Values</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-07 06:31:52</sys_created_on>
+            <sys_id>ac42504408701b008d78de1a3d502d1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Value</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_mst_tasktype_value_en</sys_update_name>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-07 06:31:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

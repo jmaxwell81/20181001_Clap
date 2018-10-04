@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" table="x_187055_clapfront_incident_tbl" version="2" view="clap_inc">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>83255a8878be93408d78b9fd2866c808</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inquiry</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>07255a8878be93408d78b9fd2866c808</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inquiry_details</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>87255a8878be93408d78b9fd2866c808</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>failure_type</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>0b255a8878be93408d78b9fd2866c808</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>customer</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>8b255a8878be93408d78b9fd2866c808</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inquiry_time</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>0f255a8878be93408d78b9fd2866c808</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>8f255a8878be93408d78b9fd2866c808</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>03255a8878be93408d78b9fd2866c809</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>83255a8878be93408d78b9fd2866c809</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>07255a8878be93408d78b9fd2866c809</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>task_type</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>87255a8878be93408d78b9fd2866c809</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>0b255a8878be93408d78b9fd2866c809</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>8b255a8878be93408d78b9fd2866c809</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>service_type</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>0f255a8878be93408d78b9fd2866c809</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>customer.customer_id</element>
+            <list_id display_value="x_187055_clapfront_incident_tbl" element="NULL" name="x_187055_clapfront_incident_tbl" parent="x_187055_clapfront_incident_tbl" relationship="589bf5510f2013004bbcb36be1050ef5" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">a24e42ea6030db008d78e24bf20e3a0f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_id>8f255a8878be93408d78b9fd2866c809</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <parent>x_187055_clapfront_incident_tbl</parent>
+            <position/>
+            <relationship display_value="Failure history">589bf5510f2013004bbcb36be1050ef5</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-15 02:09:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a24e42ea6030db008d78e24bf20e3a0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_187055_clapfront_incident_tbl</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_list_x_187055_clapfront_incident_tbl_589bf5510f2013004bbcb36be1050ef5_clap_inc</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-15 02:09:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clap_Inc" name="clap_inc">183399e3dbf42300e59c9fd2ca961937</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

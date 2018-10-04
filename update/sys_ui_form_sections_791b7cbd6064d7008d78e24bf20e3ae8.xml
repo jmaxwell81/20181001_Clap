@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="791b7cbd6064d7008d78e24bf20e3ae8" sys_domain="global" table="x_187055_clapfront_incident_tbl" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 09:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f11b7cbd6064d7008d78e24bf20e3ae9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_incident_tbl" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">791b7cbd6064d7008d78e24bf20e3ae8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">254874fd6064d7008d78e24bf20e3a24</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:43:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 09:46:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9cbf03160a4d7008d78e24bf20e3adc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_incident_tbl" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">791b7cbd6064d7008d78e24bf20e3ae8</sys_ui_form>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 09:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b51b7cbd6064d7008d78e24bf20e3aea</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_incident_tbl" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">791b7cbd6064d7008d78e24bf20e3ae8</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">b91b7cbd6064d7008d78e24bf20e3ae9</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 09:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d4cb43160a4d7008d78e24bf20e3aae</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_incident_tbl" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">791b7cbd6064d7008d78e24bf20e3ae8</sys_ui_form>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">814cb43160a4d7008d78e24bf20e3aac</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 09:45:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>096b703160a4d7008d78e24bf20e3af8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_incident_tbl" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">791b7cbd6064d7008d78e24bf20e3ae8</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">856b703160a4d7008d78e24bf20e3af6</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:03:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-21 02:59:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3433e7e12c0c6b808d780ac7a5760d30</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_incident_tbl" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">791b7cbd6064d7008d78e24bf20e3ae8</sys_ui_form>
+            <sys_ui_section display_value="">3433e7e12c0c6b808d780ac7a5760d2c</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:03:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:03:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f857594e99423008d788a77a64c2081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_incident_tbl" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">791b7cbd6064d7008d78e24bf20e3ae8</sys_ui_form>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">cf857594e99423008d788a77a64c207e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-03 04:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d59916fdbf42300e59c9fd2ca96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_incident_tbl" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">791b7cbd6064d7008d78e24bf20e3ae8</sys_ui_form>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">01b49a6be4a4d7008d78f83d805ae2f4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-03 04:52:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_187055_clapfront_incident_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 09:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>791b7cbd6064d7008d78e24bf20e3ae8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_187055_clapfront_incident_tbl</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_form_sections_791b7cbd6064d7008d78e24bf20e3ae8</sys_update_name>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:43:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clap_Inc" name="clap_inc">183399e3dbf42300e59c9fd2ca961937</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

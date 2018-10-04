@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>takaharu.yamashita</sys_created_by>
+        <sys_created_on>2018-04-24 06:07:38</sys_created_on>
+        <sys_id>80099b5b78e193008d78b9fd2866c84c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_187055_clapfront_subticket_tbl.x_187055_clapfront.read</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_security_acl display_value="x_187055_clapfront_subticket_tbl">ba49c4f9082897008d78de1a3d502da5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_80099b5b78e193008d78b9fd2866c84c</sys_update_name>
+        <sys_updated_by>takaharu.yamashita</sys_updated_by>
+        <sys_updated_on>2018-04-24 06:07:38</sys_updated_on>
+        <sys_user_role display_value="x_187055_clapfront.read" name="x_187055_clapfront.read">bb201f13cce593008d785942d9b56180</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

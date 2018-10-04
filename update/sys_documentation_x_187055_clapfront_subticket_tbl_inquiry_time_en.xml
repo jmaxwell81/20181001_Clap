@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="inquiry_time" label="Inquiry Time" language="en" table="x_187055_clapfront_subticket_tbl">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>inquiry_time</element>
+            <help/>
+            <hint/>
+            <label>Inquiry Time</label>
+            <language>en</language>
+            <name>x_187055_clapfront_subticket_tbl</name>
+            <plural>Inquiry Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 08:26:45</sys_created_on>
+            <sys_id>9b692c79e42497008d78f83d805ae296</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Inquiry Time</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_subticket_tbl_inquiry_time_en</sys_update_name>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:28:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

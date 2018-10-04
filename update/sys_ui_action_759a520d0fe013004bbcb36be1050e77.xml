@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>send_answer</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments>SendAnswerボタン押下契機で、当該レコードと紐づく上位チケットのタスク種別に「調査結果受領」を、回答内容に当該レコードの回答内容をセットし、当該レコードのタスク種別に「他部署(Tier2・AC等)エスカレ結果待ち」をセットする。&#13;
+&#13;
+</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_style>primary</form_style>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>SendAnswer</name>
+        <onclick/>
+        <order>101</order>
+        <script><![CDATA[var i = 1;
+var task = '';
+var subTask = '';
+var number = '';
+var tableNm = '';
+var assginGroup = '';
+var answer = current.getDisplayValue('answer');
+
+var ticIdList = ['', 'ticket_id', 'alert_id', 'subticket_id', 'prob_id'];
+var tableNmList = ['', 'x_187055_clapfront_incident_tbl', 'x_187055_clapfront_alert_tbl', 'x_187055_clapfront_subticket_tbl', 'x_187055_clapfront_problem_tbl'];
+
+var CONST_SUBTASK = '他部署(Tier2・AC等)エスカレ結果待ち';
+var CONST_TASK = '調査結果受領';
+
+// 当該チケットに関連しているチケット種別の「調査結果受領」タスクを取得する
+for(i = 1; i < ticIdList.length; i++){
+	if(current.getDisplayValue(ticIdList[i]) != ''){
+		number = current.getDisplayValue(ticIdList[i]);
+		tableNm = tableNmList[i];
+		task = getTaskId(i.toString(), CONST_TASK);
+		break;
+	}
+}
+//取得した「調査結果受領」タスクを関連チケットにセットし、アサイン先組織名のsysIdを返却する
+assginGroup = setTask(tableNm, number, task, answer);
+
+//当該チケットの各カラムに下記を設定する
+//アクティビティ：回答内容
+//アサイン先組織名:上位チケットのアサイン先組織名
+//アサイン先担当者名:空欄
+//タスク種別:「他部署(Tier2・AC等)エスカレ結果待ち」タスク
+subTask = getTaskId('3', CONST_SUBTASK);
+
+current.work_notes = current.getValue('answer');
+current.setValue('assignment_group', assginGroup);
+current.setValue('assigned_to', '');
+current.setValue('task_type', subTask);
+current.update();
+
+//引数のチケット種別・タスク種別をもつレコードをタスク種別マスタから取得する
+function getTaskId(ticketId, taskNm){
+	var grTask = new GlideRecord('x_187055_clapfront_mst_tasktype');
+	grTask.addQuery('task_type', taskNm);
+	grTask.addQuery('ticket_type', ticketId);
+	grTask.query();
+	if(grTask.next()){
+		return grTask.getUniqueValue();
+	}else{
+		return '';
+	}
+}
+
+//上位チケットにタスク種別マスタから取得したタスクと回答内容をセットした後、上位チケットのアサイン先組織名を返却
+function setTask(tableNm, number, task, answer){
+	var grTic = new GlideRecord(tableNm);
+	grTic.addQuery('number', number);
+	grTic.query();
+	if(grTic.next()){
+		grTic.answer = answer;
+		grTic.task_type = task;
+		grTic.update();
+	}
+	return grTic.getValue('assignment_group');
+}
+
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-26 08:46:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>759a520d0fe013004bbcb36be1050e77</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>SendAnswer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_ui_action_759a520d0fe013004bbcb36be1050e77</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-08-22 02:37:03</sys_updated_on>
+        <table>x_187055_clapfront_subticket_tbl</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

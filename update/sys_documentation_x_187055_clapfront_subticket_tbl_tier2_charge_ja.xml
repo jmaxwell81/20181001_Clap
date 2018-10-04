@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="tier2_charge" label="Tier2担当者" language="ja" table="x_187055_clapfront_subticket_tbl">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tier2_charge</element>
+            <help/>
+            <hint/>
+            <label>Tier2担当者</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_subticket_tbl</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-06 06:48:17</sys_created_on>
+            <sys_id>1f5c476be4e4d7008d78f83d805ae22d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tier2担当者</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_subticket_tbl_tier2_charge_ja</sys_update_name>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-06 06:48:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

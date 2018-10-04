@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_187055_clapfront_subticket_tbl</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Insert TimeRecord SBT</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	
+	
+	var gr = new GlideRecord('x_187055_clapfront_timerecord');
+	var grTask = new GlideRecord('x_187055_clapfront_mst_tasktype');
+	var grTbl;
+	var tableNmList = ['','x_187055_clapfront_incident_tbl', 'x_187055_clapfront_alert_tbl', 'x_187055_clapfront_subticket_tbl', 'x_187055_clapfront_problem_tbl'];
+	var ticIdList = ['', 'ticket_id', 'alert_id', 'subticket_id', 'prob_id'];
+	var curTime =　new GlideDateTime().getDisplayValue();
+	var taskSysId = '';
+	var ticketType = '';
+	
+	// サブチケット新規作成時、紐づく上位チケットのタスク種別を「他部署(Tier2・AC等)エスカレ結果待ち」タスクに変更する
+	if(previous.number == ''){
+		
+		//当該サブチケットに紐づく上位チケットを特定する
+		for(var i = 1; i < ticIdList.length; i++){
+			if(current.getDisplayValue(ticIdList[i]) != ''){
+				ticketType = i;
+				break;
+			}
+		}
+		//紐づく上位チケットの「他部署(Tier2・AC等)エスカレ結果待ち」タスクのSysIdを取得する
+		grTask.addQuery('task_type','他部署(Tier2・AC等)エスカレ結果待ち');
+		grTask.addQuery('ticket_type',ticketType.toString());
+		grTask.query();
+		if(grTask.next()){
+			taskSysId = grTask.getUniqueValue();
+		}
+		
+		//タスク種別変更
+		grTbl = new GlideRecord(tableNmList[ticketType]);
+		grTbl.addQuery('number', current.getDisplayValue(ticIdList[ticketType]));
+		grTbl.query();
+		if(grTbl.next()){
+			grTbl.task_type = taskSysId;
+			grTbl.update();
+		}
+		
+// 		grInc.addQuery('number',current.ticket_id.getDisplayValue());
+// 		grInc.query();
+// 		while(grInc.next()){
+// 			grInc.task_type = task;
+// 			grInc.update();
+// 		}
+// 		grAlt.addQuery('number',current.alert_id.getDisplayValue());
+// 		grAlt.query();
+// 		while(grAlt.next()){
+// 			grAlt.task_type = task;
+// 			grAlt.update();
+// 		}
+// 		grPrb.addQuery('number',current.prob_id.getDisplayValue());
+// 		grPrb.query();
+// 		while(grPrb.next()){
+// 			grPrb.task_type = task;
+// 			grPrb.update();
+// 		}
+		
+		
+	}
+	// 再起票時（前ステータスがクローズかつ現ステータスがオープン）のときはタスク日時の開始をシステム日時
+	if(previous.status == 2 && current.status != 2){
+		gr.initialize();
+		gr.ticket_id = current.ticket_id;
+		gr.alert_id = current.alert_id;
+		gr.subticket_id = current.getUniqueValue();
+		gr.problem_id = current.prob_id;
+		gr.operated_user = current.sys_updated_by;
+		gr.task_type = current.task_type.getDisplayValue();
+		gr.assignment_group = current.assignment_group.getDisplayValue();
+		gr.assigned_to = current.assigned_to.getDisplayValue();
+		gr.start_time = curTime;
+		gr.insert();
+		
+		//
+	}else if(current.status != 2){
+		if(previous.task_type != current.task_type || previous.assignment_group !=  current.assignment_group || previous.assigned_to != current.assigned_to){
+			
+			gr.initialize();
+			gr.ticket_id = current.ticket_id;
+			gr.alert_id = current.alert_id;
+			gr.subticket_id = current.getUniqueValue();
+			gr.prob_id = current.prob_id;
+			gr.operated_user = current.sys_updated_by;
+			gr.task_type = current.task_type.getDisplayValue();
+			gr.assignment_group = current.assignment_group.getDisplayValue();
+			gr.assigned_to = current.assigned_to.getDisplayValue();
+			gr.start_time = curTime;
+			gr.insert();
+		}
+	}else if(current.status == 2){
+		
+		gr.addQuery('ticket_id',current.ticket_id);
+		gr.addQuery('alert_id',current.alert_id);
+		gr.addQuery('subticket_id',current.getUniqueValue());
+		gr.addQuery('prob_id',current.prob_id);
+		gr.addQuery('end_time','');
+		gr.query();
+		if(gr.next()){
+			gr.end_time = curTime;
+			gr.update();
+		}
+	}
+	
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-02-28 09:48:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03ebbc7d086897008d78de1a3d502ded</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Insert TimeRecord SBT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_03ebbc7d086897008d78de1a3d502ded</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-09-10 09:00:20</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=03ebbc7d086897008d78de1a3d502ded"/>
+</record_update>

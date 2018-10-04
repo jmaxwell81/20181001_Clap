@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_187055_clapfront_incident_tbl</basic_apply_to>
+        <basic_query_from>x_187055_clapfront_incident_tbl</basic_query_from>
+        <insert_callback/>
+        <name>Failure history</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('customer',parent.customer);]]></query_with>
+        <reference_field>alert_id</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-27 01:09:20</sys_created_on>
+        <sys_id>589bf5510f2013004bbcb36be1050ef5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Failure history</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_relationship_589bf5510f2013004bbcb36be1050ef5</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-15 01:59:55</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=589bf5510f2013004bbcb36be1050ef5"/>
+</record_update>

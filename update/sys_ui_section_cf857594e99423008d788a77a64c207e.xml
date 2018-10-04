@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Work Manage" section_id="cf857594e99423008d788a77a64c207e" sys_domain="global" table="x_187055_clapfront_incident_tbl" version="3" view="clap_inc">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:04:59</sys_created_on>
+            <sys_id>7ac5bd54e99423008d788a77a64c20b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:04:59</sys_updated_on>
+            <text>※チケットを更新すると経過時間のカウントが0クリアされます。</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7ac5bd54e99423008d788a77a64c20b7</element>
+            <position>0</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:04:59</sys_created_on>
+            <sys_id>3ec5bd54e99423008d788a77a64c20b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">cf857594e99423008d788a77a64c207e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:04:59</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:04:59</sys_created_on>
+            <sys_id>bec5bd54e99423008d788a77a64c20b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">cf857594e99423008d788a77a64c207e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:04:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pause_start</element>
+            <position>2</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:04:59</sys_created_on>
+            <sys_id>32c5bd54e99423008d788a77a64c20b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">cf857594e99423008d788a77a64c207e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:04:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:04:59</sys_created_on>
+            <sys_id>b2c5bd54e99423008d788a77a64c20b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">cf857594e99423008d788a77a64c207e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:04:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pause_end</element>
+            <position>4</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:04:59</sys_created_on>
+            <sys_id>36c5bd54e99423008d788a77a64c20b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">cf857594e99423008d788a77a64c207e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:04:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:04:59</sys_created_on>
+            <sys_id>b6c5bd54e99423008d788a77a64c20b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">cf857594e99423008d788a77a64c207e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:04:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pause_comment</element>
+            <position>6</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:04:59</sys_created_on>
+            <sys_id>3ac5bd54e99423008d788a77a64c20b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">cf857594e99423008d788a77a64c207e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:04:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Work Manage</caption>
+            <header>false</header>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-29 08:03:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf857594e99423008d788a77a64c207e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work Manage</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_section_cf857594e99423008d788a77a64c207e</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-29 08:03:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Clap_Inc" name="clap_inc">183399e3dbf42300e59c9fd2ca961937</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

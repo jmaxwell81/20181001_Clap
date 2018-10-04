@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>x_187055_clapfront_common_tbl</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>task_type</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_187055_clapfront_incident_tbl</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>task_groupDYNAMICd6435e965f510100a9ad2572f2b47744^ORtask_groupISEMPTY^inactive=2^EQ^ticket_type=1</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-05-21 06:50:19</sys_created_on>
+        <sys_id>e055ea80781e5b008d78b9fd2866c89c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>task_type</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_dictionary_override_e055ea80781e5b008d78b9fd2866c89c</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-13 01:06:19</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

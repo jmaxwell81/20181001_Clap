@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_187055_clapfront_timerecord</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_187055_clapfront_timerecord">start_timeISNOTEMPTY^end_timeISNOTEMPTY^EQ<item endquery="false" field="start_time" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="end_time" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SubtractTime for TimeRecord</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	var grTaskType = new GlideRecord('x_187055_clapfront_mst_tasktype');
+	var ticIdList = ['', 'ticket_id', 'alert_id', 'subticket_id', 'prob_id'];
+	var i = 1;
+	var ticketType = 0;
+	
+	var start = new GlideDateTime(current.start_time.getDisplayValue());
+	var end = new GlideDateTime(current.end_time.getDisplayValue());
+	
+	var cdt = new CalculateDifferenceTime();
+	var fault = GlideDateTime.subtract(start, end);
+	var dayFault;
+	
+	
+	//当該レコードがサブチケットのタスク日時レコードであるかチェック
+	if(current.getDisplayValue(ticIdList[3]) != ''){
+		ticketType = 3;
+		
+	}else{
+		//チケット・アラート・問題チケットいずれかに紐づくタスク日時レコードの場合
+		for(i = 1; i < ticIdList.length; i++){
+			if(i != 3 && current.getDisplayValue(ticIdList[i]) != ''){
+				ticketType = i;
+				break;
+			}
+		}
+	}
+	
+	
+	grTaskType.addQuery('task_type', current.getDisplayValue('task_type'));
+	grTaskType.addQuery('ticket_type', ticketType.toString());
+	grTaskType.query();
+	if(grTaskType.next()){
+		if(grTaskType.getValue('target') == true){
+			current.fault_time = fault;
+			dayFault = cdt.calcTime(start,end);
+			current.day_fault_time = dayFault[2];
+		}else{
+			current.fault_time = new GlideDuration('00:00:00');
+			current.day_fault_time = new GlideDuration('00:00:00');
+		}
+	}
+	
+	
+	current.update();
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-05 05:04:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68caad170868d7008d78de1a3d502d06</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SubtractTime for TimeRecord</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_68caad170868d7008d78de1a3d502d06</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-14 02:47:32</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=68caad170868d7008d78de1a3d502d06"/>
+</record_update>

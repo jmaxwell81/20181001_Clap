@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst TaskType" max_length="40" name="x_187055_clapfront_mst_tasktype" type="collection">
+        <element choice="1" label="Inactive" mandatory="true" max_length="40" name="inactive" type="choice">
+            <choice>
+                <element value="2"/>
+                <element label="true" value="1"/>
+            </choice>
+        </element>
+        <element label="latest label" max_length="40" name="latest_label" type="string"/>
+        <element label="Remarks" max_length="3000" name="remarks" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element default="1" label="Target" max_length="40" name="target" type="boolean"/>
+        <element attributes="tree_picker=true" label="Task Group" max_length="32" name="task_group" reference="sys_user_group" reference_qual="parent=86a6d628d1749b40adba8d18883881a9^ORsys_idSTARTSWITH86a6d628d1749b40adba8d18883881a9^EQ" reference_qual_condition="parent=86a6d628d1749b40adba8d18883881a9^ORsys_idSTARTSWITH86a6d628d1749b40adba8d18883881a9^EQ" type="reference"/>
+        <element display="true" label="Task Type" mandatory="true" max_length="40" name="task_type" type="string"/>
+        <element choice="3" label="Ticket Type" mandatory="true" max_length="40" name="ticket_type" type="choice">
+            <choice>
+                <element label="Ticket" sequence="1" value="1"/>
+                <element label="故障・サポートチケット" language="ja" sequence="1" value="1"/>
+                <element label="Alert Ticket" sequence="2" value="2"/>
+                <element label="アラートチケット" language="ja" sequence="2" value="2"/>
+                <element label="Sub Ticket" sequence="3" value="3"/>
+                <element label="サブチケット" language="ja" sequence="3" value="3"/>
+                <element label="Problem Ticket" sequence="4" value="4"/>
+                <element label="問題チケット" language="ja" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Value" mandatory="true" max_length="40" name="value" type="integer"/>
+        <index name="index">
+            <element name="task_group"/>
+        </index>
+    </element>
+</database>

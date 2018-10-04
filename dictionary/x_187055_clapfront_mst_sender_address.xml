@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Sender Address" max_length="40" name="x_187055_clapfront_mst_sender_address" type="collection">
+        <element display="true" label="Display Name" max_length="80" name="display_name" type="string"/>
+        <element label="Sender" mandatory="true" max_length="80" name="sender" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element choice="1" label="Service Type(Alert)" max_length="40" name="service_type_alt" type="choice">
+            <choice>
+                <element label="Office365" sequence="1" value="1"/>
+                <element label="Office365" language="ja" sequence="1" value="1"/>
+                <element label="ADFS" language="ja" sequence="2" value="2"/>
+                <element label="ADFS" sequence="2" value="2"/>
+                <element label="G Suite" language="ja" sequence="3" value="3"/>
+                <element label="G Suite" sequence="3" value="3"/>
+                <element label="Agurippa" sequence="4" value="4"/>
+                <element label="Agurippa基盤" language="ja" sequence="4" value="4"/>
+                <element label="Kakeibon" sequence="5" value="5"/>
+                <element label="Kakeibon" language="ja" sequence="5" value="5"/>
+                <element label="HOPE" sequence="6" value="6"/>
+                <element label="HOPE基盤" language="ja" sequence="6" value="6"/>
+                <element label="My pocket" sequence="7" value="7"/>
+                <element label="マイポケット" language="ja" sequence="7" value="7"/>
+                <element label="BizStorage file share" sequence="8" value="8"/>
+                <element label="Bizストレージファイルシェア" language="ja" sequence="8" value="8"/>
+                <element label="Common base" sequence="9" value="9"/>
+                <element label="共通基盤（マイポケット/Bizスト）" language="ja" sequence="9" value="9"/>
+                <element label="Box" language="ja" sequence="10" value="10"/>
+                <element label="Box" sequence="10" value="10"/>
+                <element label="SFDC" language="ja" sequence="11" value="11"/>
+                <element label="SFDC" sequence="11" value="11"/>
+                <element label="CAS" sequence="12" value="12"/>
+                <element label="CAS" language="ja" sequence="12" value="12"/>
+                <element label="My Secure Business" sequence="13" value="13"/>
+                <element label="マイセキュアビジネス" language="ja" sequence="13" value="13"/>
+                <element label="Other" sequence="14" value="14"/>
+                <element label="その他" language="ja" sequence="14" value="14"/>
+            </choice>
+        </element>
+        <element choice="1" label="Service Type(Maintenance)" max_length="40" name="service_type_maint" type="choice">
+            <choice>
+                <element label="BizStorage file share" sequence="1" value="1"/>
+                <element label="Bizストレージファイルシェア" language="ja" sequence="1" value="1"/>
+                <element label="My Pocket" sequence="2" value="2"/>
+                <element label="マイポケット" language="ja" sequence="2" value="2"/>
+                <element label="Office365" language="ja" sequence="3" value="3"/>
+                <element label="Office365" sequence="3" value="3"/>
+                <element label="Kakeibon" language="ja" sequence="4" value="4"/>
+                <element label="Kakeibon" sequence="4" value="4"/>
+                <element label="CAS" language="ja" sequence="5" value="5"/>
+                <element label="CAS" sequence="5" value="5"/>
+                <element label="My Secure Business" sequence="6" value="6"/>
+                <element label="マイセキュアビジネス" language="ja" sequence="6" value="6"/>
+                <element label="G Suite" sequence="7" value="7"/>
+                <element label="G Suite" language="ja" sequence="7" value="7"/>
+                <element label="Agurippa" sequence="8" value="8"/>
+                <element label="Agurippa基盤" language="ja" sequence="8" value="8"/>
+                <element label="HOPE" sequence="9" value="9"/>
+                <element label="HOPE基盤" language="ja" sequence="9" value="9"/>
+                <element label="Other" sequence="10" value="10"/>
+                <element label="その他" language="ja" sequence="10" value="10"/>
+            </choice>
+        </element>
+        <element label="Service Type(Ticket)" max_length="32" name="service_type_tic" reference="x_187055_clapfront_mst_servicetype" reference_qual="inactive=2^EQ" reference_qual_condition="inactive=2^EQ" type="reference"/>
+        <element choice="1" label="Support Type" max_length="40" name="support_type" type="choice">
+            <choice>
+                <element label="Alert" sequence="1" value="1"/>
+                <element label="アラート対応" language="ja" sequence="1" value="1"/>
+                <element label="Maintenance" sequence="2" value="2"/>
+                <element label="メンテナンス対応" language="ja" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element choice="3" default="1" label="Ticket Type" max_length="40" name="ticket_type" type="choice">
+            <choice>
+                <element label="Ticket" sequence="1" value="1"/>
+                <element label="故障・サポートチケット" language="ja" sequence="1" value="1"/>
+                <element label="Alert Ticket" sequence="2" value="2"/>
+                <element label="アラートチケット" language="ja" sequence="2" value="2"/>
+                <element label="Sub Ticket" sequence="3" value="3"/>
+                <element label="サブチケット" language="ja" sequence="3" value="3"/>
+                <element label="Problem Ticket" sequence="4" value="4"/>
+                <element label="問題チケット" language="ja" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="service_type_tic"/>
+        </index>
+    </element>
+</database>

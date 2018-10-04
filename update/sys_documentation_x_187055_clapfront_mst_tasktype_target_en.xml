@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="target" label="Target" language="en" table="x_187055_clapfront_mst_tasktype">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>target</element>
+            <help/>
+            <hint/>
+            <label>Target</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_tasktype</name>
+            <plural>Targets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-05 05:04:59</sys_created_on>
+            <sys_id>e03bed170868d7008d78de1a3d502ded</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Target</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_mst_tasktype_target_en</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-05 05:04:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

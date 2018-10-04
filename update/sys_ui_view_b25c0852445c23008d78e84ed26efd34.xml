@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,mst_claptagertaddress_view</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>kaori.ito</sys_created_by>
+        <sys_created_on>2018-09-04 05:32:10</sys_created_on>
+        <sys_id>b25c0852445c23008d78e84ed26efd34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,mst_claptagertaddress_view</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_ui_view_b25c0852445c23008d78e84ed26efd34</sys_update_name>
+        <sys_updated_by>kaori.ito</sys_updated_by>
+        <sys_updated_on>2018-09-04 05:32:10</sys_updated_on>
+        <title>Sys_popup,mst_claptagertaddress_view</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

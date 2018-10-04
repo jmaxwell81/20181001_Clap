@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Mst Response Team">d61c486f78771b808d78b9fd2866c82d</application>
+        <filter/>
+        <name>Mst Response Teams</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_187055_clapfront.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>yuichi.tomiya</sys_created_by>
+        <sys_created_on>2018-08-14 06:12:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>561c486f78771b808d78b9fd2866c82f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mst Response Teams</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_ui_module_561c486f78771b808d78b9fd2866c82f</sys_update_name>
+        <sys_updated_by>yuichi.tomiya</sys_updated_by>
+        <sys_updated_on>2018-08-14 06:12:02</sys_updated_on>
+        <table>x_187055_clapfront_mst_response_team</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group>50dc0660d1749b40adba8d188838813a,d0dcceecd1349b40adba8d188838814d,18dc0660d1749b40adba8d1888388133,a02e83be609593408d78e24bf20e3a29,9c4e12e87cea83008d78429ad09686a7</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>CLAP-SD</name>
+        <role/>
+        <script/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>y.tsujinaka</sys_created_by>
+        <sys_created_on>2018-08-10 03:05:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfdabac2cc7b57808d785942d9b56182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLAP-SD</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>user_criteria_dfdabac2cc7b57808d785942d9b56182</sys_update_name>
+        <sys_updated_by>y.tsujinaka</sys_updated_by>
+        <sys_updated_on>2018-08-10 03:05:48</sys_updated_on>
+        <user/>
+    </user_criteria>
+</record_update>

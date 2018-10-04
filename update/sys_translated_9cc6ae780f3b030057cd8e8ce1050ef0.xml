@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>問題一覧</label>
+        <language>ja</language>
+        <name>sys_app_module</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>yamashita</sys_created_by>
+        <sys_created_on>2018-01-19 08:15:24</sys_created_on>
+        <sys_id>9cc6ae780f3b030057cd8e8ce1050ef0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>問題一覧</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_translated_9cc6ae780f3b030057cd8e8ce1050ef0</sys_update_name>
+        <sys_updated_by>yamashita</sys_updated_by>
+        <sys_updated_on>2018-01-19 08:15:24</sys_updated_on>
+        <value>All Problem</value>
+    </sys_translated>
+</record_update>

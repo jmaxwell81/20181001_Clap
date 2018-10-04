@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Send Mail activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_187055_clapfront_send_mail_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-05-23 05:58:17</sys_created_on>
+        <sys_id>e3fca0b82c929b008d780ac7a5760d7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_187055_clapfront_send_mail_activity.fields</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_properties_e3fca0b82c929b008d780ac7a5760d7b</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-05-23 05:58:17</sys_updated_on>
+        <type>string</type>
+        <value>number,approval,caller_ticket,mail_body,mail_id,mail_status,prebody,sender,signature,title,.labeled.reply_contents</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3fca0b82c929b008d780ac7a5760d7b"/>
+</record_update>

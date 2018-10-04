@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.GetDefalutValue</api_name>
+        <client_callable>false</client_callable>
+        <description>getTaskType():各種チケット新規作成時にタスク種別を設定する関数</description>
+        <name>GetDefalutValue</name>
+        <script><![CDATA[var GetDefalutValue = Class.create();
+GetDefalutValue.prototype = {
+    initialize: function() {
+    },
+	getTaskType: function(){
+		var tableNmList = ['','x_187055_clapfront_incident_tbl', 'x_187055_clapfront_alert_tbl', 'x_187055_clapfront_subticket_tbl', 'x_187055_clapfront_problem_tbl'];
+		var defaultTaskList = ['', '未対応', '未対応', '調査中', '調査中'];
+		var grMTask = new GlideRecord('x_187055_clapfront_mst_tasktype');
+		var ticketType = '';
+		
+		for(var i = 0; i < tableNmList.length; i++){
+			if(tableNmList[i] == current.getTableName()){
+				ticketType = i;
+			}	
+		}
+		
+		grMTask.addQuery('task_type', defaultTaskList[ticketType]);
+		grMTask.addQuery('ticket_type', ticketType.toString());
+		grMTask.query();
+		if(grMTask.next()){
+			return grMTask.getUniqueValue();
+		}else{
+			return '';
+		}
+	},
+	
+	
+
+    type: 'GetDefalutValue'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-06-13 01:00:41</sys_created_on>
+        <sys_id>bc7feb172c6653408d780ac7a5760d3e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetDefalutValue</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_bc7feb172c6653408d780ac7a5760d3e</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-13 01:20:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

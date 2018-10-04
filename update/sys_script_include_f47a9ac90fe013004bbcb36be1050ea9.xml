@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.Get_Inquiry_Detail</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Get_Inquiry_Detail</name>
+        <script><![CDATA[function Get_Inquiry_Detail(){	
+	var ChoiceList = [];
+	var choicesel = new GlideRecord("x_187055_clapfront_mst_inquirydetail");
+	
+	choicesel.addQuery('inquiry', current.inquiry);
+	choicesel.addQuery('inactive', 2);
+	choicesel.orderBy('sequence');
+	choicesel.query();
+	while(choicesel.next()){
+		ChoiceList.push(choicesel.sys_id.toString());
+	}	
+	
+	return 'sys_idIN' + ChoiceList;
+	
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-26 08:45:28</sys_created_on>
+        <sys_id>f47a9ac90fe013004bbcb36be1050ea9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get_Inquiry_Detail</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_f47a9ac90fe013004bbcb36be1050ea9</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-03-08 07:17:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

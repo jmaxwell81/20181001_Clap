@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description>チケットをクローズにする際に、「未送信」「承認待ち」メールがあれば削除実行確認ダイアログを表示。&#13;
+キャンセルの場合、保存処理を中断。&#13;
+OKの場合、保存処理を続行させてBRの処理に移る。</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>OnSubmit When Ticket Closed</name>
+        <order/>
+        <script><![CDATA[var gFormAlreadySubmitted = false;
+
+function onSubmit() {
+	
+	var status = g_form.getValue('status');
+	var ticketNumber = g_form.getValue('number');
+	
+	//チケットをクローズする場合、ダイアログを表示する
+	if(!gFormAlreadySubmitted){
+		if(status == 2 ){
+			
+			var gaChkMail = new GlideAjax('DeleteMail');
+			gaChkMail.addParam('sysparm_name', 'checkUnsentMail');
+			gaChkMail.addParam('sysparm_ticketNumber', ticketNumber);
+			gaChkMail.getXMLAnswer(callback);
+			return false;
+		}else{
+			return true;
+		}
+	}else{
+		return true;
+	}
+	
+}
+
+function callback(answer){
+	var mailDeleteMsg = 'ステータスをCloseに変更するため「送信済み」以外の「作成中」「承認待ち」メールを削除します。';
+	
+	if(answer > 0){
+		if(confirm(mailDeleteMsg)){
+			gFormAlreadySubmitted = true;
+			gsftSubmit(undefined, undefined, g_form.getActionName());
+			//gsftSubmit(undefined, undefined, undefined);
+		}
+	}else{
+		gFormAlreadySubmitted = true;
+		gsftSubmit(undefined, undefined, g_form.getActionName());
+		//gsftSubmit(undefined, undefined, undefined);
+	}
+	
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-08-21 07:32:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>878168752c8c6b808d780ac7a5760d05</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name>OnSubmit When Ticket Closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_client_878168752c8c6b808d780ac7a5760d05</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-09-10 08:22:06</sys_updated_on>
+        <table>x_187055_clapfront_common_tbl</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

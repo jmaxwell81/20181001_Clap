@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.SetStylesFromTaskSLA</api_name>
+        <client_callable>false</client_callable>
+        <description>＊SLAの基準時間が１日に設定されていることが条件&#13;
+1日：100％、1週間：700％、2週間：1400％、1か月：3000％&#13;
+&#13;
+</description>
+        <name>SetStylesFromTaskSLA</name>
+        <script><![CDATA[var SetStylesFromTaskSLA = Class.create();
+SetStylesFromTaskSLA.prototype = {
+	initialize: function() {
+	},
+	
+	setStyle : function(sysId, pauseStart, pauseEnd, perUnder, perOver, status){
+		var isPause = '';
+		if(pauseStart == '' || pauseEnd == ''){
+			isPause = false;
+		}else{
+			isPause = this.pauseTicket(status, pauseStart, pauseEnd);
+		}
+		
+		//休止期間外かつ、SLA進捗率が の場合、着色する
+		if(!isPause && this.queryTaskSla(sysId, perUnder, perOver)){
+			return true;
+		}else{
+			return false;
+		}
+	},
+	
+	//現在時刻が休止期間内であればTrue返却、それ以外の場合False返却
+	pauseTicket : function(status, pauseStart, pauseEnd){
+		
+		var curTime =　new GlideDateTime();
+		var gdtPauseStart = new GlideDateTime(pauseStart);
+		var gdtPauseEnd = new GlideDateTime(pauseEnd);
+		
+		if(status != 2 &&curTime.after(gdtPauseStart) && curTime.before(gdtPauseEnd)){
+			return true;
+		}else{
+			return false;
+		}
+	},
+	
+	queryTaskSla : function(sysId, perUnder, perOver){
+		
+		var grTaskSla = new GlideRecord('task_sla');
+		grTaskSla.addQuery('task', sysId);
+		grTaskSla.addQuery('stage', 'in_progress');
+		if(perUnder != '')
+			grTaskSla.addQuery('percentage', '>=', perUnder);
+		if(perOver != '')
+			grTaskSla.addQuery('percentage', '<', perOver);
+		grTaskSla.query();
+		if(grTaskSla.next()){
+			return true;
+		}else{
+			return false;
+		}
+	},
+	
+	type: 'SetStylesFromTaskSLA'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-08-14 03:52:29</sys_created_on>
+        <sys_id>2d34eb532cfbd7808d780ac7a5760d60</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>SetStylesFromTaskSLA</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_2d34eb532cfbd7808d780ac7a5760d60</sys_update_name>
+        <sys_updated_by>yuichi.tomiya</sys_updated_by>
+        <sys_updated_on>2018-09-03 01:10:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

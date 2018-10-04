@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="number" label="送信メールID" language="ja" table="x_187055_clapfront_send_mail">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>送信メールID</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_send_mail</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-24 00:14:40</sys_created_on>
+            <sys_id>0fd7600578da9b008d78b9fd2866c800</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>送信メールID</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_send_mail_number_ja</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-24 00:14:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

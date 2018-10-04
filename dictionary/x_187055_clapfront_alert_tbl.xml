@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_187055_clapfront_common_tbl" label="アラート" max_length="40" name="x_187055_clapfront_alert_tbl" type="collection">
+        <element label="Additional Text" max_length="4000" name="additional_text" type="string"/>
+        <element label="Unused Alert Detected Time" max_length="40" name="alert_detected_time" type="glide_date_time"/>
+        <element label="Answer" max_length="300" name="answer" type="string"/>
+        <element label="Answered Time" max_length="40" name="answered_time" type="glide_date_time"/>
+        <element label="Completion Date" max_length="40" name="completion_date" type="glide_date"/>
+        <element label="Creator" max_length="40" name="creator" type="string"/>
+        <element choice="1" label="Unused_Equipment Type" max_length="40" name="equipment_type" type="choice">
+            <choice>
+                <element label="Kazushi10x[Database]" language="ja" sequence="1" value="1"/>
+                <element label="Kazushi10x[Database]" sequence="1" value="1"/>
+                <element label="NewUI10x[WebApp]" sequence="2" value="2"/>
+                <element label="NewUI10x[WebApp]" language="ja" sequence="2" value="2"/>
+                <element label="JSON10x[REST-API]" sequence="3" value="3"/>
+                <element label="JSON10x[REST-API]" language="ja" sequence="3" value="3"/>
+                <element label="Uran10x[ATOM-API]" language="ja" sequence="4" value="4"/>
+                <element label="Uran10x[ATOM-API]" sequence="4" value="4"/>
+                <element label="Teru10x[WebApp]" language="ja" sequence="5" value="5"/>
+                <element label="Teru10x[WebApp]" sequence="5" value="5"/>
+                <element label="mp-dXXX-nasXX[NAS]" language="ja" sequence="6" value="6"/>
+                <element label="mp-dXXX-nasXX[NAS]" sequence="6" value="6"/>
+                <element label="mp-dXXX-nascsXX[InterConnect Switch]" language="ja" sequence="7" value="7"/>
+                <element label="mp-dXXX-nascsXX[InterConnect Switch]" sequence="7" value="7"/>
+                <element label="my-XXX-dcrtXX[L3SW]" sequence="8" value="8"/>
+                <element label="my-XXX-dcrtXX[L3SW]" language="ja" sequence="8" value="8"/>
+                <element label="Other" sequence="9" value="9"/>
+                <element label="その他" language="ja" sequence="9" value="9"/>
+            </choice>
+        </element>
+        <element label="Equipment Type" max_length="32" name="equipment_type_ref" reference="x_187055_clapfront_mst_equipmenttype" reference_qual="inactive=2^EQ" reference_qual_condition="inactive=2^EQ" type="reference"/>
+        <element default="javascript:current.description;" label="Explain" max_length="4000" name="explain" type="string"/>
+        <element choice="1" label="Hardware Failure part" max_length="40" name="hardware_failure_part" type="choice">
+            <choice>
+                <element label="CPU" language="ja" sequence="1" value="1"/>
+                <element label="CPU" sequence="1" value="1"/>
+                <element label="Memory" sequence="2" value="2"/>
+                <element label="Memory" language="ja" sequence="2" value="2"/>
+                <element label="HDD" language="ja" sequence="3" value="3"/>
+                <element label="HDD" sequence="3" value="3"/>
+                <element label="Power Supply Unit" language="ja" sequence="4" value="4"/>
+                <element label="Power Supply Unit" sequence="4" value="4"/>
+                <element label="System board" sequence="5" value="5"/>
+                <element label="System board" language="ja" sequence="5" value="5"/>
+                <element label="RAID controller" language="ja" sequence="6" value="6"/>
+                <element label="RAID controller" sequence="6" value="6"/>
+                <element label="SFP" sequence="7" value="7"/>
+                <element label="SFP" language="ja" sequence="7" value="7"/>
+                <element label="Other[free format]" language="ja" sequence="8" value="8"/>
+                <element label="Other[free format]" sequence="8" value="8"/>
+            </choice>
+        </element>
+        <element label="Hardware Failure part(Free format)" max_length="4000" name="hardware_failure_part_free" type="string"/>
+        <element label="Host Name" max_length="100" name="host_name" reference="x_187055_clapfront_mst_machine" reference_qual="inactive=2^EQ" reference_qual_condition="inactive=2^EQ" type="reference"/>
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Inquiry Time" max_length="40" name="inquiry_time" type="glide_date_time" use_dynamic_default="true"/>
+        <element choice="1" label="Known to User" max_length="40" name="known_to_user" type="choice">
+            <choice>
+                <element label="OSW" sequence="1" value="1"/>
+                <element label="OSW掲載_有" language="ja" sequence="1" value="1"/>
+                <element label="User" sequence="2" value="2"/>
+                <element label="個別ユーザ周知_有" language="ja" sequence="2" value="2"/>
+                <element label="None" sequence="3" value="3"/>
+                <element label="OSW・個別ユーザ周知_無" language="ja" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="Mail Title" max_length="100" name="mail_title" type="string"/>
+        <element label="Maintenance End Time" max_length="40" name="maintenance_end_time" type="glide_date_time"/>
+        <element label="Maintenance Start Time" max_length="40" name="maintenance_start_time" type="glide_date_time"/>
+        <element choice="1" label="Maintenance State" max_length="40" name="maintenance_state" type="choice">
+            <choice>
+                <element label="Not started" sequence="1" value="1"/>
+                <element label="未開始" language="ja" sequence="1" value="1"/>
+                <element label="In progress" sequence="2" value="2"/>
+                <element label="進行中" language="ja" sequence="2" value="2"/>
+                <element label="Complete" sequence="3" value="3"/>
+                <element label="完了" language="ja" sequence="3" value="3"/>
+                <element label="Delay" sequence="4" value="4"/>
+                <element label="延期" language="ja" sequence="4" value="4"/>
+                <element label="Waiting" sequence="5" value="5"/>
+                <element label="待機中" language="ja" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Unused Occurred Time" max_length="40" name="occurred_time" type="glide_date_time"/>
+        <element label="Recovery Time" max_length="40" name="recovery_time" type="glide_date_time"/>
+        <element label="Remarks" max_length="4000" name="remarks" type="string"/>
+        <element default="javascript:current.getDisplayValue('inquiry_time');" label="Request Date" max_length="40" name="request_date" type="glide_date"/>
+        <element label="Response State" max_length="4000" name="response_state" type="string"/>
+        <element label="Response State Summary" max_length="4000" name="response_state_summary" type="string"/>
+        <element choice="1" label="ALT Response Team" max_length="40" name="response_team" type="choice">
+            <choice>
+                <element label="Tier1" sequence="1" value="1"/>
+                <element label="Tier1で解決" language="ja" sequence="1" value="1"/>
+                <element label="Tier2" sequence="2" value="2"/>
+                <element label="Tier2で解決" language="ja" sequence="2" value="2"/>
+                <element label="Tier3" sequence="3" value="3"/>
+                <element label="Tier3で解決" language="ja" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="Service Impact" max_length="40" name="service_impact" type="choice">
+            <choice>
+                <element label="Yes" sequence="1" value="1"/>
+                <element label="有" language="ja" sequence="1" value="1"/>
+                <element label="No" sequence="2" value="2"/>
+                <element label="無" language="ja" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Service Recovery Time" max_length="40" name="service_recovery_time" type="glide_date_time"/>
+        <element label="Service Trouble occurs Time" max_length="40" name="service_trouble_occurs_time" type="glide_date_time"/>
+        <element choice="1" label="Service Type(Alert)" mandatory="true" max_length="40" name="service_type_alt" type="choice">
+            <choice>
+                <element label="Office365" sequence="1" value="1"/>
+                <element label="Office365" language="ja" sequence="1" value="1"/>
+                <element label="ADFS" sequence="2" value="2"/>
+                <element label="ADFS" language="ja" sequence="2" value="2"/>
+                <element label="G Suite" sequence="3" value="3"/>
+                <element label="G Suite" language="ja" sequence="3" value="3"/>
+                <element label="Agurippa" sequence="4" value="4"/>
+                <element label="Agurippa基盤" language="ja" sequence="4" value="4"/>
+                <element label="Kakeibon" language="ja" sequence="5" value="5"/>
+                <element label="Kakeibon" sequence="5" value="5"/>
+                <element label="HOPE" sequence="6" value="6"/>
+                <element label="HOPE基盤" language="ja" sequence="6" value="6"/>
+                <element label="My pocket" sequence="7" value="7"/>
+                <element label="マイポケット" language="ja" sequence="7" value="7"/>
+                <element label="BizStorage file share" sequence="8" value="8"/>
+                <element label="Bizストレージファイルシェア" language="ja" sequence="8" value="8"/>
+                <element label="Common base" sequence="9" value="9"/>
+                <element label="共通基盤（マイポケット/Bizスト）" language="ja" sequence="9" value="9"/>
+                <element label="Box" sequence="10" value="10"/>
+                <element label="Box" language="ja" sequence="10" value="10"/>
+                <element label="SFDC" sequence="11" value="11"/>
+                <element label="SFDC" language="ja" sequence="11" value="11"/>
+                <element label="CAS" sequence="12" value="12"/>
+                <element label="CAS" language="ja" sequence="12" value="12"/>
+                <element label="My Secure Business" sequence="13" value="13"/>
+                <element label="マイセキュアビジネス" language="ja" sequence="13" value="13"/>
+                <element label="Other" sequence="14" value="14"/>
+                <element label="その他" language="ja" sequence="14" value="14"/>
+            </choice>
+        </element>
+        <element choice="1" label="Service Type (Maintenance)" mandatory="true" max_length="40" name="service_type_maint" type="choice">
+            <choice>
+                <element label="BizStorage file share" sequence="1" value="1"/>
+                <element label="Bizストレージファイルシェア" language="ja" sequence="1" value="1"/>
+                <element label="My Pocket" sequence="2" value="2"/>
+                <element label="マイポケット" language="ja" sequence="2" value="2"/>
+                <element label="Office365" language="ja" sequence="3" value="3"/>
+                <element label="Office365" sequence="3" value="3"/>
+                <element label="Kakeibon" sequence="4" value="4"/>
+                <element label="Kakeibon" language="ja" sequence="4" value="4"/>
+                <element label="CAS" sequence="5" value="5"/>
+                <element label="CAS" language="ja" sequence="5" value="5"/>
+                <element label="My Secure Business" sequence="6" value="6"/>
+                <element label="マイセキュアビジネス" language="ja" sequence="6" value="6"/>
+                <element label="G Suite" language="ja" sequence="7" value="7"/>
+                <element label="G Suite" sequence="7" value="7"/>
+                <element label="Agurippa" sequence="8" value="8"/>
+                <element label="Agurippa基盤" language="ja" sequence="8" value="8"/>
+                <element label="HOPE" sequence="9" value="9"/>
+                <element label="HOPE基盤" language="ja" sequence="9" value="9"/>
+                <element label="Other" sequence="10" value="10"/>
+                <element label="その他" language="ja" sequence="10" value="10"/>
+            </choice>
+        </element>
+        <element label="Sos Name" max_length="100" name="sos_name" type="string"/>
+        <element choice="3" default="1" label="Support Type" max_length="40" name="support_type" type="choice">
+            <choice>
+                <element label="Alert" sequence="1" value="1"/>
+                <element label="アラート対応" language="ja" sequence="1" value="1"/>
+                <element label="Maintenance" sequence="2" value="2"/>
+                <element label="メンテナンス対応" language="ja" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Trouble Cause" max_length="4000" name="trouble_cause" type="string"/>
+        <element label="Trouble Description" max_length="4000" name="trouble_description" type="string"/>
+        <element choice="1" label="Trouble Type" max_length="40" name="trouble_type" type="choice">
+            <choice>
+                <element label="Hardware Trouble" sequence="1" value="1"/>
+                <element label="ハードウェア故障" language="ja" sequence="1" value="1"/>
+                <element label="Software Trouble" sequence="2" value="2"/>
+                <element label="ソフトウェア障害" language="ja" sequence="2" value="2"/>
+                <element label="High load" sequence="3" value="3"/>
+                <element label="高負荷" language="ja" sequence="3" value="3"/>
+                <element label="Bug" language="ja" sequence="4" value="4"/>
+                <element label="Bug" sequence="4" value="4"/>
+                <element label="Human error" sequence="5" value="5"/>
+                <element label="人為故障" language="ja" sequence="5" value="5"/>
+                <element label="Other Service Trouble" sequence="6" value="6"/>
+                <element label="他サービス障害[Free format]" language="ja" sequence="6" value="6"/>
+                <element label="false Alert" sequence="7" value="7"/>
+                <element label="誤警報" language="ja" sequence="7" value="7"/>
+                <element label="Maintenance Alert" sequence="8" value="8"/>
+                <element label="メンテナンス警報" language="ja" sequence="8" value="8"/>
+                <element label="Resource Monitoring Warning" sequence="9" value="10"/>
+                <element label="リソース監視Warning" language="ja" sequence="9" value="10"/>
+                <element label="Other" sequence="10" value="9"/>
+                <element label="その他[Free format]" language="ja" sequence="10" value="9"/>
+            </choice>
+        </element>
+    </element>
+</database>

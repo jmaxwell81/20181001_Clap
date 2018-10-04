@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>RegisterMail</name>
+        <run_as display_value="">32b786bf7cd643008d78429ad0968687</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-06-13 02:13:14</run_start>
+        <run_time>1969-12-31 15:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[//RegisterMstTaskType
+// var grTask;
+// var taskNm = ['未対応', '調査中', '調査結果受領', '他部署(Tier2・AC等)エスカレ結果待ち', 'メール承認待ち', 'メール回答待ち'];
+
+// for(var i = 0; i < taskNm.length; i++){
+// 	grTask = new GlideRecord('x_187055_clapfront_mst_tasktype');
+// 	grTask.initialize();
+// 	grTask.task_type = taskNm[i];
+// 	grTask.ticket_type = '4';
+// 	grTask.inactive = '2';
+// 	grTask.value = 98 + i;
+// 	grTask.latest_label = taskNm[i];
+// 	grTask.update();
+// }
+var curTime = new GlideDateTime("2018-06-18 08:00:00");
+var grMail;
+for(var i = 1; i < 17 ; i++ ){
+	curTime.addSeconds(i * 1000);
+	grMail = new GlideRecord('x_187055_clapfront_mail');
+	grMail.initialize();
+	grMail.setValue('received_time', curTime);
+	grMail.title = 'CC試験用　UT' + i;
+	grMail.mail_type = '故障・サポート';
+	grMail.service_type = 'Office365';
+	grMail.update();
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-06-13 02:17:19</sys_created_on>
+        <sys_id>efd2c02378ee53408d78b9fd2866c867</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>RegisterMail</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sysauto_script_efd2c02378ee53408d78b9fd2866c867</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-18 06:19:52</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

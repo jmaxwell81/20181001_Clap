@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Mst Notification Address</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_187055_clapfront_mst_notification_address</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-06-04 01:16:58</sys_created_on>
+        <sys_id>1cfe19accc6e5f008d785942d9b561c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mst Notification Address</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_db_object_1cfe19accc6e5f008d785942d9b561c7</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-04 01:16:58</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_187055_clapfront.user" name="x_187055_clapfront.user">85a3d185db8013008a1cf08c0c9619f7</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

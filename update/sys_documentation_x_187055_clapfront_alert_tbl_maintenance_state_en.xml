@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="maintenance_state" label="Maintenance State" language="en" table="x_187055_clapfront_alert_tbl">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>maintenance_state</element>
+            <help/>
+            <hint/>
+            <label>Maintenance State</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <plural>Maintenance States</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:28:21</sys_created_on>
+            <sys_id>7f0c98b1086897008d78de1a3d502dd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Maintenance State</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_alert_tbl_maintenance_state_en</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:28:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

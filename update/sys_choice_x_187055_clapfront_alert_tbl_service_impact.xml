@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service_impact" table="x_187055_clapfront_alert_tbl" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:08:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1c46c75086897008d78de1a3d502d8b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:09:30</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>有</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:09:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d55ac75086897008d78de1a3d502d60</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:09:33</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:08:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb456c75086897008d78de1a3d502d8b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:09:31</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>無</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27556c75086897008d78de1a3d502d8c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:09:36</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service_impact</element>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:08:43</sys_created_on>
+            <sys_id>e655952bdbf42300e59c9fd2ca9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service_impact</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_choice_x_187055_clapfront_alert_tbl_service_impact</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:08:43</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

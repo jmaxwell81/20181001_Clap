@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_grid_canvas" unload_date="2018-10-04 02:02:43">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA タブ２">39759e6f2cb557008d780ac7a5760dca</legacy_page>
+        <name>PA New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>takaharu.yamashita</sys_created_by>
+        <sys_created_on>2018-05-07 06:06:37</sys_created_on>
+        <sys_id>f1759e6f2cb557008d780ac7a5760dcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab 2</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_grid_canvas_f1759e6f2cb557008d780ac7a5760dcb</sys_update_name>
+        <sys_updated_by>takaharu.yamashita</sys_updated_by>
+        <sys_updated_on>2018-05-07 06:06:37</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

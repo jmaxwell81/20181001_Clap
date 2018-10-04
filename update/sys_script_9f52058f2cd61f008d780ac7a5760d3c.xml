@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_187055_clapfront_send_mail</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Value By MailStatus</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[setValue();
+
+function setValue() {
+	
+	// Add your code here
+	
+	var grTbl;
+	var tableNmList = ['', 'x_187055_clapfront_incident_tbl', 'x_187055_clapfront_alert_tbl', 'x_187055_clapfront_subticket_tbl', 'x_187055_clapfront_problem_tbl'];
+	var ticIdList = ['', 'ticket_id', 'alert_id', 'prob_id', 'subticket_id'];
+	var ticId = '';
+	var sysId = '';
+	var i = 1;
+	var taskType = '';
+	var ticketType = '';
+	
+	var CST_TASK_PENDING = 'メール承認待ち';
+	var CST_TASK_SENT = 'メール回答待ち';
+	
+	for(i = 1; i < tableNmList.length; i++ ){
+		grTbl = new GlideRecord(tableNmList[i]);
+		grTbl.addQuery('number', current.getDisplayValue('caller_ticket'));
+		grTbl.query();
+		if(grTbl.next()){
+			sysId = grTbl.getUniqueValue();
+			ticId = ticIdList[i];
+			break;
+		}
+	}
+	
+	//【メールステータス】が「承認待ち（２）」に変更された時
+	if(current.getValue('mail_status')　 == 2 && previous.getValue('mail_status')　 != 2){
+		grTbl.setValue('task_type', this.searchTask(CST_TASK_PENDING, i.toString()));
+		grTbl.update();
+	}
+	
+	//【メールステータス】が「送信済み（３）」に変更された時
+	if(current.getValue('mail_status')　 == 3 && previous.getValue('mail_status')　 != 3){
+		grTbl.setValue('task_type', this.searchTask(CST_TASK_SENT, i.toString()));
+		grTbl.update();
+	}
+	
+}
+
+
+function searchTask(taskType, ticketType){
+	
+	var grMstTask = new GlideRecord('x_187055_clapfront_mst_tasktype');
+	grMstTask.addQuery('task_type', taskType);
+	grMstTask.addQuery('ticket_type', ticketType);
+	grMstTask.query();
+	if(grMstTask.next()){
+		return grMstTask.getUniqueValue();
+	}
+	
+}
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-05-30 07:38:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f52058f2cd61f008d780ac7a5760d3c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Set Value By MailStatus</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_9f52058f2cd61f008d780ac7a5760d3c</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-08-15 07:15:02</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9f52058f2cd61f008d780ac7a5760d3c"/>
+</record_update>

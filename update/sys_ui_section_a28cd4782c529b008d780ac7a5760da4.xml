@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="New section" section_id="a28cd4782c529b008d780ac7a5760da4" sys_domain="global" table="x_187055_clapfront_incident_tbl" version="3" view="sys_popup">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-23 04:46:24</sys_created_on>
+            <sys_id>b68c18782c529b008d780ac7a5760d0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section" display_value="New section" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">a28cd4782c529b008d780ac7a5760da4</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-23 04:46:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-23 04:46:24</sys_created_on>
+            <sys_id>3a8c18782c529b008d780ac7a5760d0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section" display_value="New section" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">a28cd4782c529b008d780ac7a5760da4</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-23 04:46:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New section</caption>
+            <header>false</header>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-23 04:46:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a28cd4782c529b008d780ac7a5760da4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_section_a28cd4782c529b008d780ac7a5760da4</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-23 04:46:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Sys_popup" name="sys_popup">c7402b100a0a0b8400cf971d83ee4384</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

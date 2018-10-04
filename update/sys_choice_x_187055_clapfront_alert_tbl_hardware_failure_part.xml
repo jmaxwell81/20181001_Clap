@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hardware_failure_part" table="x_187055_clapfront_alert_tbl" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPU</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:48:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31b06435086897008d78de1a3d502d41</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:51:59</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPU</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:47:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b70e035086897008d78de1a3d502de5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:02</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Memory</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:48:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9906035086897008d78de1a3d502d52</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Memory</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:49:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2d06435086897008d78de1a3d502dfd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:04</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HDD</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>3</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:49:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ce02835086897008d78de1a3d502d4b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:05</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HDD</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>3</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:48:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70806035086897008d78de1a3d502d52</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:06</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Power Supply Unit</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>4</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:49:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17c02835086897008d78de1a3d502d4b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:08</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Power Supply Unit</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>4</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:47:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e050e035086897008d78de1a3d502da1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:09</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System board</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>5</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:48:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1090a035086897008d78de1a3d502df2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:12</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System board</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>5</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e06835086897008d78de1a3d502d14</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:13</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RAID controller</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>6</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:49:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14c02435086897008d78de1a3d502d03</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:14</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RAID controller</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>6</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5390e035086897008d78de1a3d502d8a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:15</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SFP</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>7</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:48:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bca0e035086897008d78de1a3d502dac</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:21</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SFP</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>7</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4b06435086897008d78de1a3d502db1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:22</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other[free format]</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>8</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:49:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ac06435086897008d78de1a3d502dfc</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:24</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardware_failure_part</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other[free format]</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>8</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:48:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6a06435086897008d78de1a3d502d40</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:52:25</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hardware_failure_part</element>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 07:47:42</sys_created_on>
+            <sys_id>9e55552bdbf42300e59c9fd2ca9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hardware_failure_part</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_choice_x_187055_clapfront_alert_tbl_hardware_failure_part</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 07:47:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

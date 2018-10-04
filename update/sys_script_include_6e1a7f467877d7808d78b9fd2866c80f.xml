@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.DeleteMail</api_name>
+        <client_callable>true</client_callable>
+        <description>送信メールテーブルに対するスクリプト&#13;
+checkUnsentMail：チケットに紐づく返信メールのうち「未送信」「承認待ち」メールの数を返却する。&#13;
+deleteUnsentMail：チケットに紐づく「未送信」「承認待ち」メールを削除する。</description>
+        <name>DeleteMail</name>
+        <script><![CDATA[var DeleteMail = Class.create();
+DeleteMail.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	checkUnsentMail :function(){
+		
+		var ticketNumber = this.getParameter('sysparm_ticketNumber');
+		var grMail = new GlideRecord('x_187055_clapfront_send_mail');
+		grMail.addQuery('caller_ticket', ticketNumber);
+		grMail.addQuery('mail_status', 'IN', '1,2');
+		grMail.query();
+		return grMail.getRowCount();
+	
+	},
+
+	deleteUnsentMail :function(ticketNumber){
+		
+		var grMail = new GlideRecord('x_187055_clapfront_send_mail');
+		grMail.addQuery('caller_ticket', ticketNumber);
+		grMail.addQuery('mail_status', 'IN', '1,2');
+		grMail.query();
+		while(grMail.next()){
+			grMail.deleteRecord();
+		}
+	},
+    type: 'DeleteMail'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-08-10 08:04:34</sys_created_on>
+        <sys_id>6e1a7f467877d7808d78b9fd2866c80f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>DeleteMail</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_6e1a7f467877d7808d78b9fd2866c80f</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-08-22 07:10:25</sys_updated_on>
+    </sys_script_include>
+</record_update>

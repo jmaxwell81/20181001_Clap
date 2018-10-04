@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_187055_clapfront_incident_tbl" version="2" view="clap_inc">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Ticket - Clap_Inc" name="x_187055_clapfront_incident_tbl" related_list="NULL" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">4bd772c008cd9b008d78de1a3d502d31</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_187055_clapfront_subticket_tbl.ticket_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-22 07:49:43</sys_created_on>
+            <sys_id>7dec3f94cc129b008d785942d9b561da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-22 07:49:43</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Ticket - Clap_Inc" name="x_187055_clapfront_incident_tbl" related_list="NULL" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">4bd772c008cd9b008d78de1a3d502d31</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:589bf5510f2013004bbcb36be1050ef5</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-22 07:49:43</sys_created_on>
+            <sys_id>b5ec3f94cc129b008d785942d9b561db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-22 07:49:43</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Ticket - Clap_Inc" name="x_187055_clapfront_incident_tbl" related_list="NULL" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">4bd772c008cd9b008d78de1a3d502d31</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_187055_clapfront_timerecord.ticket_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-22 07:49:43</sys_created_on>
+            <sys_id>b9ec3f94cc129b008d785942d9b561db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-22 07:49:43</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Ticket - Clap_Inc" name="x_187055_clapfront_incident_tbl" related_list="NULL" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">4bd772c008cd9b008d78de1a3d502d31</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_187055_clapfront_mail.ticket_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-22 07:49:43</sys_created_on>
+            <sys_id>bdec3f94cc129b008d785942d9b561db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-22 07:49:43</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Ticket - Clap_Inc" name="x_187055_clapfront_incident_tbl" related_list="NULL" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">4bd772c008cd9b008d78de1a3d502d31</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_187055_clapfront_send_mail.ticket_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-22 07:49:43</sys_created_on>
+            <sys_id>b1ec3f94cc129b008d785942d9b561dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-22 07:49:43</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Ticket - Clap_Inc</calculated_name>
+            <filter/>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-22 07:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bd772c008cd9b008d78de1a3d502d31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ticket - Clap_Inc</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_related_x_187055_clapfront_incident_tbl_clap_inc</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-22 07:49:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clap_Inc" name="clap_inc">183399e3dbf42300e59c9fd2ca961937</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

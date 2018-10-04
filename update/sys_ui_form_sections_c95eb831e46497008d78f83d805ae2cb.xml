@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="c95eb831e46497008d78f83d805ae2cb" sys_domain="global" table="x_187055_clapfront_subticket_tbl" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:58:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>455eb831e46497008d78f83d805ae2cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_subticket_tbl" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">c95eb831e46497008d78f83d805ae2cb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">d69c3031e46497008d78f83d805ae26f</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:58:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:58:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>095eb831e46497008d78f83d805ae2cd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_subticket_tbl" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">c95eb831e46497008d78f83d805ae2cb</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">0d5eb831e46497008d78f83d805ae2cc</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:37:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 10:06:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69504171e46497008d78f83d805ae212</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_subticket_tbl" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">c95eb831e46497008d78f83d805ae2cb</sys_ui_form>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">29504171e46497008d78f83d805ae210</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:37:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:59:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f8eb831e46497008d78f83d805ae2d4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_subticket_tbl" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">c95eb831e46497008d78f83d805ae2cb</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">ff8eb831e46497008d78f83d805ae2d2</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:36:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:40:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37b3966be4a4d7008d78f83d805ae230</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_subticket_tbl" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">c95eb831e46497008d78f83d805ae2cb</sys_ui_form>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_subticket_tbl" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">7bb3126be4a4d7008d78f83d805ae2b0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:40:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_187055_clapfront_subticket_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:58:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c95eb831e46497008d78f83d805ae2cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_187055_clapfront_subticket_tbl</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c95eb831e46497008d78f83d805ae2cb</sys_update_name>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:58:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clap_Sbt" name="clap_sbt">5bdef5890fa013004bbcb36be1050e93</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="customercharge" label="お客様担当者" language="ja" table="x_187055_clapfront_incident_tbl">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>customercharge</element>
+            <help/>
+            <hint/>
+            <label>お客様担当者</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 10:43:18</sys_created_on>
+            <sys_id>f58809f1e46497008d78f83d805ae2e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>お客様担当者</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_incident_tbl_customercharge_ja</sys_update_name>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 10:43:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

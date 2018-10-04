@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description>・「ClapAdmin」権限を所有している場合統計情報タブを表示させる。</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Control "statistics" section OnLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	var clapAdmin = 'x_187055_clapfront.admin';
+	var gaChr = new GlideAjax('CheckHasRole');
+	gaChr.addParam('sysparm_name', 'checkHasRole');
+	gaChr.addParam('sysparm_role', clapAdmin);
+	gaChr.getXML(updateExcute);
+	
+}
+function updateExcute(response) {
+	var answer =  response.responseXML.documentElement.getAttribute("answer");
+	
+	if(answer == 'true'){
+		g_form.setSectionDisplay('statistics', true);
+	}else if(answer == 'false'){
+		g_form.setSectionDisplay('statistics', false);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-06 05:41:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>acfcb6a360e81b008d78e24bf20e3af3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Control "statistics" section OnLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_client_acfcb6a360e81b008d78e24bf20e3af3</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-03-08 05:01:46</sys_updated_on>
+        <table>x_187055_clapfront_problem_tbl</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

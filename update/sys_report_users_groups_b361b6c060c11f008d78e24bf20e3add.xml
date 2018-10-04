@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="CLAPサポートデスク" name="CLAPサポートデスク">86a6d628d1749b40adba8d18883881a9</group_id>
+        <report_id display_value="【週次】O365問合せ推移">f1310dae087c5b008d78de1a3d502d8c</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>azusa.iso</sys_created_by>
+        <sys_created_on>2018-03-20 04:23:00</sys_created_on>
+        <sys_id>b361b6c060c11f008d78e24bf20e3add</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f1310dae087c5b008d78de1a3d502d8c</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_report_users_groups_b361b6c060c11f008d78e24bf20e3add</sys_update_name>
+        <sys_updated_by>azusa.iso</sys_updated_by>
+        <sys_updated_on>2018-03-20 04:23:00</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Control section display by 'Support type'</description>
+        <field>support_type</field>
+        <global>true</global>
+        <messages/>
+        <name>Control "Maint" and "Trouble" Onchange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	
+	
+	if(newValue == 1){
+		g_form.setMandatory('service_type_alt', true);
+		g_form.setMandatory('service_type_maint', false);
+		g_form.setSectionDisplay('trouble', true);
+		g_form.setSectionDisplay('maintenance', false);
+		
+		
+	}
+	else if(newValue == 2){
+		g_form.setMandatory('service_type_alt', false);
+		g_form.setMandatory('service_type_maint', true);
+		g_form.setSectionDisplay('trouble', false);
+		g_form.setSectionDisplay('maintenance', true);
+		
+	}
+	//Type appropriate comment here, and begin script below
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-02-28 09:36:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e39307d086897008d78de1a3d502dda</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Control "Maint" and "Trouble" Onchange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_client_8e39307d086897008d78de1a3d502dda</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-11 04:56:32</sys_updated_on>
+        <table>x_187055_clapfront_alert_tbl</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

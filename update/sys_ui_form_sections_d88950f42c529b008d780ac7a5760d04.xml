@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="d88950f42c529b008d780ac7a5760d04" sys_domain="global" table="x_187055_clapfront_subticket_tbl" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_187055_clapfront_subticket_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-23 04:34:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d88950f42c529b008d780ac7a5760d04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_187055_clapfront_subticket_tbl</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d88950f42c529b008d780ac7a5760d04</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-23 04:34:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Sys_popup,send_mail" name="sys_popup,send_mail">ea64b3d0cc129b008d785942d9b561f8</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

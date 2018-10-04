@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>priority</element>
+        <name>x_187055_clapfront_mail</name>
+        <style>background-color:red;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-20 09:59:01</sys_created_on>
+        <sys_id>0e4ebb08e4899b008d78f83d805ae2e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_187055_clapfront_mail</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_ui_style_0e4ebb08e4899b008d78f83d805ae2e9</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-03-20 10:00:01</sys_updated_on>
+        <value>1</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=0e4ebb08e4899b008d78f83d805ae2e9"/>
+</record_update>

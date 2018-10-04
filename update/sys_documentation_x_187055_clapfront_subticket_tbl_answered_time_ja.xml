@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="answered_time" label="回答／完了日時" language="ja" table="x_187055_clapfront_subticket_tbl">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>answered_time</element>
+            <help/>
+            <hint/>
+            <label>回答／完了日時</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_subticket_tbl</name>
+            <plural>回答／完了日時s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 08:41:22</sys_created_on>
+            <sys_id>eb8ca8b9e42497008d78f83d805ae23e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>回答／完了日時</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_subticket_tbl_answered_time_ja</sys_update_name>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:41:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

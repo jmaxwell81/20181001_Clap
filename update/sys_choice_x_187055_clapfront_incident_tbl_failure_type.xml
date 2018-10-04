@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="failure_type" table="x_187055_clapfront_incident_tbl" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Support</label>
+            <language>en</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>1</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3aa5e4796064d7008d78e24bf20e3a2b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:47:36</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>サポート</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>1</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3c524796064d7008d78e24bf20e3aa8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:47:39</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Order</label>
+            <language>en</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>2</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:09:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b86524796064d7008d78e24bf20e3a2e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:48:06</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>作業依頼</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>2</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:11:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48f5a8796064d7008d78e24bf20e3a4a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:47:57</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure</label>
+            <language>en</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>3</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:09:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b84528796064d7008d78e24bf20e3a13</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:48:18</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>故障</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>3</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df1628796064d7008d78e24bf20e3a16</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:48:14</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stray</label>
+            <language>en</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>4</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>629524796064d7008d78e24bf20e3a9a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:48:30</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>迷い呼</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>4</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:12:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a26e4796064d7008d78e24bf20e3af9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:48:33</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>5</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-06-01 01:23:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3548e2bcc925f008d785942d9b56132</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:48:38</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>failure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>その他</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sequence>5</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-06-01 01:24:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4884ce2bcc925f008d785942d9b5619b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:48:36</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>failure_type</element>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 08:09:00</sys_created_on>
+            <sys_id>8f55192bdbf42300e59c9fd2ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>failure_type</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_choice_x_187055_clapfront_incident_tbl_failure_type</sys_update_name>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:09:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

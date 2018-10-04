@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="latest_label" label="latest label" language="en" table="x_187055_clapfront_mst_servicetype">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>latest_label</element>
+            <help/>
+            <hint/>
+            <label>latest label</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_servicetype</name>
+            <plural>latest labels</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-07 06:52:53</sys_created_on>
+            <sys_id>101750c408701b008d78de1a3d502d9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>latest label</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_mst_servicetype_latest_label_en</sys_update_name>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-07 06:52:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

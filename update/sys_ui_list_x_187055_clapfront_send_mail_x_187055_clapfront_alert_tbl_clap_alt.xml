@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="x_187055_clapfront_alert_tbl" relationship="" sys_domain="global" table="x_187055_clapfront_send_mail" version="2" view="clap_alt">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_187055_clapfront_send_mail" element="NULL" name="x_187055_clapfront_send_mail" parent="x_187055_clapfront_alert_tbl" relationship="NULL" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">c35b7635782613408d78b9fd2866c832</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_id>8f5b7635782613408d78b9fd2866c832</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mail_status</element>
+            <list_id display_value="x_187055_clapfront_send_mail" element="NULL" name="x_187055_clapfront_send_mail" parent="x_187055_clapfront_alert_tbl" relationship="NULL" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">c35b7635782613408d78b9fd2866c832</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_id>075b7635782613408d78b9fd2866c833</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sent_time</element>
+            <list_id display_value="x_187055_clapfront_send_mail" element="NULL" name="x_187055_clapfront_send_mail" parent="x_187055_clapfront_alert_tbl" relationship="NULL" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">c35b7635782613408d78b9fd2866c832</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_id>875b7635782613408d78b9fd2866c833</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>title</element>
+            <list_id display_value="x_187055_clapfront_send_mail" element="NULL" name="x_187055_clapfront_send_mail" parent="x_187055_clapfront_alert_tbl" relationship="NULL" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">c35b7635782613408d78b9fd2866c832</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_id>0b5b7635782613408d78b9fd2866c833</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sender</element>
+            <list_id display_value="x_187055_clapfront_send_mail" element="NULL" name="x_187055_clapfront_send_mail" parent="x_187055_clapfront_alert_tbl" relationship="NULL" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">c35b7635782613408d78b9fd2866c832</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_id>8b5b7635782613408d78b9fd2866c833</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>receiver</element>
+            <list_id display_value="x_187055_clapfront_send_mail" element="NULL" name="x_187055_clapfront_send_mail" parent="x_187055_clapfront_alert_tbl" relationship="NULL" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">c35b7635782613408d78b9fd2866c832</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_id>0f5b7635782613408d78b9fd2866c833</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>carbon_copy</element>
+            <list_id display_value="x_187055_clapfront_send_mail" element="NULL" name="x_187055_clapfront_send_mail" parent="x_187055_clapfront_alert_tbl" relationship="NULL" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">c35b7635782613408d78b9fd2866c832</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_id>8f5b7635782613408d78b9fd2866c833</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>update_by</element>
+            <list_id display_value="x_187055_clapfront_send_mail" element="NULL" name="x_187055_clapfront_send_mail" parent="x_187055_clapfront_alert_tbl" relationship="NULL" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">c35b7635782613408d78b9fd2866c832</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_id>035b7635782613408d78b9fd2866c834</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_187055_clapfront_send_mail</name>
+            <parent>x_187055_clapfront_alert_tbl</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 05:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c35b7635782613408d78b9fd2866c832</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_187055_clapfront_send_mail</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_list_x_187055_clapfront_send_mail_x_187055_clapfront_alert_tbl_clap_alt</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 05:09:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clap_ALT" name="clap_alt">14f28a45db0413008a1cf08c0c961991</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

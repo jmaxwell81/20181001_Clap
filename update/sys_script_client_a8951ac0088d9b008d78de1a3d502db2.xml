@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Set assignGroup for Ticket</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	
+ 	if(g_form.isNewRecord()){
+		
+		g_form.setValue('assignment_group',g_scratchpad.user_group_sysid);
+		g_scratchpad.user_group_sysid ='';
+		g_form.setValue('assigned_to', g_user.userID);
+	
+		
+		
+// 		var gaGug = new GlideAjax('GetUserGroup');
+// 		gaGug.addParam('sysparm_name', 'getUserGroup');
+// 		gaGug.getXML(setValueExcute);
+//  	}
+// }
+// function setValueExcute(response) {
+// 	var answer =  response.responseXML.documentElement.getAttribute("answer");
+// 	g_form.setValue('assignment_group',answer);
+// 	g_form.setValue('assigned_to', g_user.userID);
+}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-20 02:21:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8951ac0088d9b008d78de1a3d502db2</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set assignGroup for Ticket</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_client_a8951ac0088d9b008d78de1a3d502db2</sys_update_name>
+        <sys_updated_by>y.tsujinaka</sys_updated_by>
+        <sys_updated_on>2018-03-22 09:18:38</sys_updated_on>
+        <table>x_187055_clapfront_incident_tbl</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

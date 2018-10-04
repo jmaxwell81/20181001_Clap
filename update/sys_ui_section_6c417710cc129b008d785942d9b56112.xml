@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="6c417710cc129b008d785942d9b56112" sys_domain="global" table="x_187055_clapfront_send_mail" version="3" view="send_mail">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>828a83b9782613408d78b9fd2866c86f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>068a83b9782613408d78b9fd2866c86f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>868a83b9782613408d78b9fd2866c86f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mail_status</element>
+            <position>3</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>0a8a83b9782613408d78b9fd2866c86f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>8a8a83b9782613408d78b9fd2866c86f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sender</element>
+            <position>5</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>0e8a83b9782613408d78b9fd2866c86f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>8e8a83b9782613408d78b9fd2866c86f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mail_id</element>
+            <position>7</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>028a83b9782613408d78b9fd2866c870</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>828a83b9782613408d78b9fd2866c870</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>068a83b9782613408d78b9fd2866c870</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>receiver</element>
+            <position>10</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>868a83b9782613408d78b9fd2866c870</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carbon_copy</element>
+            <position>11</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>0a8a83b9782613408d78b9fd2866c870</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fixed_cc</element>
+            <position>12</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>8a8a83b9782613408d78b9fd2866c870</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>13</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>0e8a83b9782613408d78b9fd2866c870</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preamble</element>
+            <position>14</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>8e8a83b9782613408d78b9fd2866c870</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mail_body</element>
+            <position>15</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>028a83b9782613408d78b9fd2866c871</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>origin_answer</element>
+            <position>16</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>828a83b9782613408d78b9fd2866c871</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>17</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>068a83b9782613408d78b9fd2866c871</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reply_contents</element>
+            <position>18</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>868a83b9782613408d78b9fd2866c871</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>19</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>0a8a83b9782613408d78b9fd2866c871</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>8a8a83b9782613408d78b9fd2866c871</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signature</element>
+            <position>21</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>0e8a83b9782613408d78b9fd2866c871</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>22</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>8e8a83b9782613408d78b9fd2866c871</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval</element>
+            <position>23</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>028a83b9782613408d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>24</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>828a83b9782613408d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>update_by</element>
+            <position>25</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>068a83b9782613408d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller_ticket</element>
+            <position>26</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>868a83b9782613408d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>27</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 06:16:12</sys_created_on>
+            <sys_id>0a8a83b9782613408d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_send_mail" sys_domain="global" view="dc417710cc129b008d785942d9b5610c">6c417710cc129b008d785942d9b56112</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 06:16:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_187055_clapfront_send_mail</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-05-22 06:58:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c417710cc129b008d785942d9b56112</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_187055_clapfront_send_mail</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_section_6c417710cc129b008d785942d9b56112</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-05-22 06:58:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Send_Mail" name="send_mail">dc417710cc129b008d785942d9b5610c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

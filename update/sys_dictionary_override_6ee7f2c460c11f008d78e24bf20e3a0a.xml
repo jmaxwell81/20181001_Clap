@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>javascript:new GetUserGroup().getUserGroup();</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assignment_group</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_187055_clapfront_common_tbl</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>parent=86a6d628d1749b40adba8d18883881a9^ORsys_id=86a6d628d1749b40adba8d18883881a9</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>y.tsujinaka</sys_created_by>
+        <sys_created_on>2018-03-20 04:51:26</sys_created_on>
+        <sys_id>6ee7f2c460c11f008d78e24bf20e3a0a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_dictionary_override_6ee7f2c460c11f008d78e24bf20e3a0a</sys_update_name>
+        <sys_updated_by>y.tsujinaka</sys_updated_by>
+        <sys_updated_on>2018-03-22 09:22:16</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

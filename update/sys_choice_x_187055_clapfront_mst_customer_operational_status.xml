@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="operational_status" table="x_187055_clapfront_mst_customer" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operational_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Service</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-07 06:04:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b4eb5a92ce6df008d780ac7a5760d6f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-07 06:05:57</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operational_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>サービス中</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-07 06:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a26eb5a92ce6df008d780ac7a5760d70</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-07 06:06:02</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operational_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Abolition</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-07 06:04:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e95e79a92ce6df008d780ac7a5760d1b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-07 06:05:59</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operational_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>廃止</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-07 06:05:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>297e79a92ce6df008d780ac7a5760df9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-07 06:06:04</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operational_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non Completion</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sequence>3</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-07 06:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b5e75a92ce6df008d780ac7a5760d56</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-07 06:06:01</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operational_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>未竣工</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sequence>3</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-07 06:05:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>077ef9a92ce6df008d780ac7a5760d06</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-07 06:06:07</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>operational_status</element>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-07 06:04:49</sys_created_on>
+            <sys_id>0755192bdbf42300e59c9fd2ca9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>operational_status</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_choice_x_187055_clapfront_mst_customer_operational_status</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-07 06:04:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

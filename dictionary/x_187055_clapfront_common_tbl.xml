@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="incident" label="Common" max_length="40" name="x_187055_clapfront_common_tbl" type="collection">
+        <element attributes="readonly_clickthrough=true" label="Alert ID" max_length="32" name="alert_id" reference="x_187055_clapfront_alert_tbl" type="reference"/>
+        <element label="DayWork Fault Time" max_length="40" name="day_fault_time" read_only="true" type="string"/>
+        <element label="Fault Time" max_length="40" name="fault_time" read_only="true" type="string"/>
+        <element label="Knowledge Level" max_length="32" name="knowledge_level" reference="x_187055_clapfront_mst_knowledge_level" reference_qual="inactive=2^EQ" reference_qual_condition="inactive=2^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;var grNotice = new GlideRecord('x_187055_clapfront_mst_notification_address');&#10;&#9;grNotice.addQuery('notification_group', current.getValue('assignment_group'));&#10;&#9;grNotice.query();&#10;&#9;if(grNotice.next()){&#10;&#9;&#9;return grNotice.getValue('notification_address');&#10;&#9;}else{&#10;&#9;&#9;return '';&#10;&#9;}&#10;&#10;})(current);" label="Notification Address" max_length="80" name="notification_address" type="string" virtual="true"/>
+        <element label="Pause Comment" max_length="3000" name="pause_comment" type="string"/>
+        <element label="Pause End" max_length="40" name="pause_end" type="glide_date_time"/>
+        <element label="Pause Start" max_length="40" name="pause_start" type="glide_date_time"/>
+        <element attributes="readonly_clickthrough=true" label="Problem ID" max_length="32" name="prob_id" reference="x_187055_clapfront_problem_tbl" type="reference"/>
+        <element label="Round DayWork Fault Time" max_length="40" name="round_day_fault_time" read_only="true" type="string"/>
+        <element label="Round Fault Time" max_length="40" name="round_fault_time" read_only="true" type="string"/>
+        <element choice="3" default="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Open" sequence="1" value="1"/>
+                <element label="Close" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element attributes="readonly_clickthrough=true" label="SubTicket ID" max_length="32" name="subticket_id" reference="x_187055_clapfront_subticket_tbl" type="reference"/>
+        <element default="javascript: new GetDefalutValue().getTaskType();" label="Task Type" mandatory="true" max_length="32" name="task_type" reference="x_187055_clapfront_mst_tasktype" reference_qual="task_groupDYNAMICd6435e965f510100a9ad2572f2b47744^ORtask_groupISEMPTY^inactive=2^EQ" reference_qual_condition="task_groupDYNAMICd6435e965f510100a9ad2572f2b47744^ORtask_groupISEMPTY^inactive=2^EQ" type="reference"/>
+        <element attributes="readonly_clickthrough=true" label="Ticket ID" max_length="32" name="ticket_id" reference="x_187055_clapfront_incident_tbl" reference_floats="true" type="reference"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+    </element>
+</database>

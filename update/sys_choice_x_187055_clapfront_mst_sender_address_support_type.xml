@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="support_type" table="x_187055_clapfront_mst_sender_address" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alert</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_sender_address</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 04:51:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c177e31782613408d78b9fd2866c8ce</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 04:51:36</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>アラート対応</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_mst_sender_address</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 04:51:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b417e35cca6df008d785942d9b56157</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-11 06:06:36</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintenance</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_sender_address</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 04:51:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d517fe71782613408d78b9fd2866c884</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 04:51:37</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>support_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>メンテナンス対応</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_mst_sender_address</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 04:51:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f0732b1782613408d78b9fd2866c817</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-11 06:06:41</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>support_type</element>
+            <name>x_187055_clapfront_mst_sender_address</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-08 04:51:06</sys_created_on>
+            <sys_id>9355592bdbf42300e59c9fd2ca961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>support_type</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_choice_x_187055_clapfront_mst_sender_address_support_type</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-08 04:51:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

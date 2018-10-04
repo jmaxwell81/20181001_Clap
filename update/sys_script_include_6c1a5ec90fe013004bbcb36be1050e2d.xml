@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.CreateTicketFromMail</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CreateTicketFromMail</name>
+        <script><![CDATA[var CreateTicketFromMail = Class.create();
+CreateTicketFromMail.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	createTicketFromMail: function(){
+		
+		var paramList = this.getParameter('sysparm_sysIdList');
+		var sysIdList = paramList.split(',');
+		
+		//受信メールの受信日時・メール種別格納
+		var mailColumnValue;
+		var receivedTimeList = [];
+		var mailTypeList = [];
+		
+		//受信日時比較
+		var gdtPreRec; //最も古い受信日時を格納
+		var gdtRec;
+		
+		var targetSysId = sysIdList[0];
+		var ticketDataList = [];
+		var tableList = ['x_187055_clapfront_incident_tbl', 'x_187055_clapfront_alert_tbl'];
+		var colNm = '';
+		
+		var isCreation = true;
+		var url = '';
+		var rtnList = [];
+		
+		//選択されたメールから受信日時とメール種別を取得
+		for(var i = 0 ; i < sysIdList.length ; i ++){
+			
+			mailColumnValue = this.getMailColumnValue(sysIdList[i]);
+			receivedTimeList.push(mailColumnValue[0]);
+			mailTypeList.push(mailColumnValue[1]);
+			//gs.debug('メール' + i +'番目\n' + '受信日時' + mailColumnValue[0] + '\nメール種別' + mailColumnValue[1]);
+		}
+		
+		
+		// 取得したメール種別が全て一致するかチェック+一番古い受信日時をもつレコードを取得
+		gdtPreRec = new GlideDateTime(receivedTimeList[0]);
+		for(var j = 1 ; j < sysIdList.length ; j++){
+			if(mailTypeList[j-1] != mailTypeList[j]){
+				isCreation = false;
+				break;
+			}
+			gdtRec = new GlideDateTime(receivedTimeList[j]);
+			if(gdtRec.before(gdtPreRec)){
+				targetSysId = sysIdList[j];
+				gdtPreRec = gdtRec;
+			}
+		}
+		
+		// isCreationがTrueの場合、チケットを作成してそのURLを返却
+		if(isCreation　== true){
+			
+			//【メール種別】が「故障・サポート」であればチケットテーブルにレコード作成
+			if(mailTypeList[0] == '故障・サポート' || mailTypeList[0] == 'Inquiry'　　){
+				ticketDataList = this.creationTicket(targetSysId, tableList[0]);
+				colNm = 'ticket_id';
+				
+				//【メール種別】が「アラート」であればアラートテーブルにレコード作成
+			}else if(mailTypeList[0] == 'アラート' || mailTypeList[0] == 'Alert'){
+				ticketDataList = this.creationTicket(targetSysId, tableList[1]);
+				colNm = 'alert_id';
+			}
+			
+			//作成したチケットに選択されたメールを全て紐づける
+			if(ticketDataList.length != 0){
+				for(var k = 0 ;k < sysIdList.length ; k++){
+					this.relationTicket(ticketDataList[0], sysIdList[k], colNm);
+				}
+				
+				url = this.generateURL(ticketDataList[1]);
+			}
+		}
+		return url;
+	},
+	
+	
+	/* getMailColumnValue
+ 	* メールテーブルから、引数のSysIdをもつレコードの【受信日時】【メール種別】を取得して返却する
+ 	*/
+	getMailColumnValue: function(sysId){
+		var grMail = new GlideRecord('x_187055_clapfront_mail');
+		var mailValList = [];
+		if(grMail.get(sysId)){
+			mailValList.push(grMail.getValue('received_time'));
+			mailValList.push(grMail.getValue('mail_type'));
+			return mailValList;
+		}
+		
+	},
+	
+	/* creationTicket
+ 	*targetSysIdをもつメールレコードの値を用いてチケットを作成する。作成したSysIdとURIを返却する
+ 	*
+ 	*rtnList[０]: 作成したチケットのSysId
+ 	*rtnList[1]: 作成したチケットのURI
+ 	*/
+	
+	creationTicket: function(targetSysId, tableNm){
+		
+		var grTic = new GlideRecord(tableNm);
+		var grMail = new GlideRecord('x_187055_clapfront_mail');
+		
+		var grm = new GlideRecord('sys_user_grmember');
+		var userId = gs.getUserID();
+		var userGrp = '';
+		
+		var rtnList = []; //返却用
+		
+		//操作ユーザの所属組織を取得する
+		grm.addQuery('user',userId);
+		grm.query();
+		if(grm.next()){
+			userGrp = grm.getValue('group');
+		}
+		
+		//メールレコードから値を取得してチケットの各カラムに設定する
+		if(grMail.get(targetSysId)){
+			
+			grTic.initialize();
+			grTic.setValue('assignment_group', userGrp);
+			grTic.setValue('short_description', grMail.getValue('title'));
+			grTic.setValue('description', grMail.getValue('mail_body'));
+			grTic.setValue('inquiry_time', grMail.getValue('received_time'));
+			grTic.insert();
+			
+			rtnList.push(grTic.getUniqueValue());
+			rtnList.push(grTic.getLink(false));
+		}
+		return rtnList;
+	},
+	
+	
+	/* relationTicket
+ 	*作成したチケットにメールを関連付ける
+ 	* ticketSysId:作成したチケットのSysId
+ 	* mailSysId: 選択されたメール達のSysId
+ 	* colNm: カラム名(ticket_id or alert_id)
+ 	*/
+	relationTicket : function(ticketSysId, mailSysId, colNm){
+		var grMail = new GlideRecord('x_187055_clapfront_mail');
+		if(grMail.get(mailSysId)){
+			grMail.setValue(colNm,ticketSysId);
+			grMail.setValue('archive',true);
+			grMail.update();
+		}
+		
+	},
+	
+	/* generateURL
+ 	*作成したチケットに遷移するためのURLを作成
+ 	*/
+	generateURL: function(link){
+		return gs.getProperty('glide.servlet.uri') + link;
+	} ,
+	
+	type: 'CreateTicketFromMail'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-26 08:43:52</sys_created_on>
+        <sys_id>6c1a5ec90fe013004bbcb36be1050e2d</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>CreateTicketFromMail</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_6c1a5ec90fe013004bbcb36be1050e2d</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-14 08:00:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

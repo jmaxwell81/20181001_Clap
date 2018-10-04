@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_187055_clapfront_common_tbl" label="チケット" max_length="40" name="x_187055_clapfront_incident_tbl" sizeclass="1" type="collection">
+        <element label="Answer" max_length="300" name="answer" type="string"/>
+        <element label="Answered Time" max_length="40" name="answered_time" type="glide_date_time"/>
+        <element label="Customer" max_length="32" name="customer" reference="x_187055_clapfront_mst_customer" reference_qual="inactive=2^EQ" reference_qual_condition="inactive=2^EQ" type="reference"/>
+        <element label="CustomerCharge" max_length="40" name="customercharge" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return current.customer.customer_id;  // return the calculated value&#10;&#10;})(current);" label="UnUsed_Customer ID" max_length="40" name="customer_id" type="string"/>
+        <element label="UnUsed_Customer" max_length="40" name="customer_txt" type="string"/>
+        <element choice="1" label="Failure Type" max_length="40" name="failure_type" type="choice">
+            <choice>
+                <element label="Support" sequence="1" value="1"/>
+                <element label="サポート" language="ja" sequence="1" value="1"/>
+                <element label="Order" sequence="2" value="3"/>
+                <element label="作業依頼" language="ja" sequence="2" value="3"/>
+                <element label="Failure" sequence="3" value="2"/>
+                <element label="故障" language="ja" sequence="3" value="2"/>
+                <element label="Stray" sequence="4" value="4"/>
+                <element label="迷い呼" language="ja" sequence="4" value="4"/>
+                <element label="Other" sequence="5" value="5"/>
+                <element label="その他" language="ja" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="HOYA" max_length="40" name="hoya" type="boolean"/>
+        <element label="Inquiry" max_length="32" name="inquiry" reference="x_187055_clapfront_mst_inquiry" reference_qual="javascript:Get_Inquiry();" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Inquiry Details" max_length="32" name="inquiry_details" reference="x_187055_clapfront_mst_inquirydetail" reference_qual="javascript:Get_Inquiry_Detail();" type="reference" use_reference_qualifier="advanced"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Inquiry Time" max_length="40" name="inquiry_time" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Occured Time" max_length="40" name="occured_time" type="glide_date_time"/>
+        <element label="ReferenceColumn" max_length="32" name="reference_column" reference="x_187055_clapfront_mst_servicetype" reference_qual="javascript:getRefColName(current.sys_id());" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Remarks" max_length="300" name="remarks" type="string"/>
+        <element label="INC Response Team" max_length="32" name="response_team" reference="x_187055_clapfront_mst_response_team" reference_qual="inactive=2^ticket_type=1^EQ" reference_qual_condition="inactive=2^ticket_type=1^EQ" type="reference"/>
+        <element label="Service Type" mandatory="true" max_length="32" name="service_type" reference="x_187055_clapfront_mst_servicetype" reference_qual="inactive=2^EQ" reference_qual_condition="inactive=2^EQ" type="reference"/>
+        <element label="Translated Text" max_length="40" name="translated_text" type="translated_text"/>
+    </element>
+</database>

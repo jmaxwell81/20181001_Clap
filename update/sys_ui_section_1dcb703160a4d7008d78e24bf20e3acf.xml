@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Reception" section_id="1dcb703160a4d7008d78e24bf20e3acf" sys_domain="global" table="x_187055_clapfront_incident_tbl" version="3" view="clap_inc">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>dac45082082c97008d78de1a3d502dd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>failure_type</element>
+            <position>1</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>5ec45082082c97008d78de1a3d502dd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inquiry_time</element>
+            <position>2</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>dec45082082c97008d78de1a3d502dd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>occured_time</element>
+            <position>3</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>52c45082082c97008d78de1a3d502dd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>d2c45082082c97008d78de1a3d502dd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_type</element>
+            <position>5</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>56c45082082c97008d78de1a3d502dd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inquiry</element>
+            <position>6</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>d6c45082082c97008d78de1a3d502dd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inquiry_details</element>
+            <position>7</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>5ac45082082c97008d78de1a3d502dd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-01 01:35:04</sys_created_on>
+            <sys_id>dac45082082c97008d78de1a3d502dd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reception" display_value="Reception" name="x_187055_clapfront_incident_tbl" sys_domain="global" view="183399e3dbf42300e59c9fd2ca961937">1dcb703160a4d7008d78e24bf20e3acf</sys_ui_section>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-01 01:35:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Reception</caption>
+            <header>false</header>
+            <name>x_187055_clapfront_incident_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 09:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1dcb703160a4d7008d78e24bf20e3acf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reception</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_section_1dcb703160a4d7008d78e24bf20e3acf</sys_update_name>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:46:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Clap_Inc" name="clap_inc">183399e3dbf42300e59c9fd2ca961937</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.CalculateDifferenceTime</api_name>
+        <client_callable>false</client_callable>
+        <description>入力された開始時間と終了時間の差分から、休日分の時間と勤務時間外の時間を除外するスクリプト&#13;
+Input: startTime(GlideDataTime) , endTime(GlideDateTime)&#13;
+Output: rtnDur(string,string)</description>
+        <name>CalculateDifferenceTime</name>
+        <script><![CDATA[var CalculateDifferenceTime = Class.create();
+CalculateDifferenceTime.prototype = {
+	initialize: function() {
+	},
+	calcTime: function(startTime,endTime){
+		
+		var rtnDur = [];
+		var tmpSub = new GlideDuration('00:00:00');
+		var subtract = new GlideDuration('00:00:00'); //差分時間(GlideDuration)
+		var gdtScheduleSta = new GlideDateTime('2018-01-01 10:00:00');
+		var gdtScheduleEnd = new GlideDateTime('2018-01-01 17:00:00');
+		
+		//開始日時（=判定日時）、終了日時、スケジュール勤務開始日時、スケジュール勤務終了日時
+		var gdtSta = new GlideDateTime(startTime);
+		var gdtEnd = new GlideDateTime(endTime);
+		var tmpSta = new GlideTime();
+		var tmpEnd = new GlideTime();
+		var cwh = new CheckWeekendOrHoliday();　//休日取得SI
+		
+		//スケジュールに記録された勤務時間帯を取得
+		var gr_schedule = new GlideRecord('cmn_schedule');
+		var scheEntry = new GlideRecord('cmn_schedule_span');
+		gr_schedule.addQuery('name','9-17_Weekdays');
+		gr_schedule.query();
+		if(gr_schedule.next()){
+			scheEntry.addQuery('schedule',gr_schedule.getUniqueValue());
+			scheEntry.query();
+			if(scheEntry.next()){
+				gdtScheduleSta = new GlideDateTime(scheEntry.start_date_time.getDisplayValue());
+				gdtScheduleEnd = new GlideDateTime(scheEntry.end_date_time.getDisplayValue());
+			}
+		}
+		//開始日時＞終了日時の場合、計算不可
+		if(gdtSta.after(gdtEnd)){
+			gs.addErrorMessage('開始日時に終了日時より後の日時が設定されています。');
+			
+			//開始日時=終了日時の場合
+		}else if(gdtSta.getDate().getValue() == gdtEnd.getDate().getValue()){
+			
+			if(!cwh.checkWeekendOrHoliday(gdtSta)){
+				subtract = this.subtractTime(gdtSta.getTime(), gdtEnd.getTime(), gdtScheduleSta.getTime(), gdtScheduleEnd.getTime());
+			}
+			
+		}else{
+			
+			while(this.subtractDate(gdtSta.getDate().getValue(), gdtEnd.getDate().getValue()) != 2){
+				
+				//判定日が休日でない場合
+				if(!cwh.checkWeekendOrHoliday(gdtSta)){
+					if(gdtSta.getDate().getValue() == startTime.getDate().getValue())
+						tmpSta = gdtSta.getTime(); //開始日と一致する場合
+					else
+						tmpSta = gdtScheduleSta.getTime(); //開始日と一致しない場合
+					
+					
+					if(gdtSta.getDate().getValue() == gdtEnd.getDate().getValue())
+						tmpEnd = gdtEnd.getTime(); // 終了日と等しい場合
+					else
+						tmpEnd = gdtScheduleEnd.getTime(); //終了日と等しくない場合
+					
+					tmpSub = this.subtractTime(tmpSta, tmpEnd, gdtScheduleSta.getTime(), gdtScheduleEnd.getTime());
+					subtract = subtract.add(tmpSub);
+					
+				}else{
+					//判定日が休日の場合何もしない
+				}
+				
+				//最後に判定日時を1日進める
+				gdtSta.addDaysUTC(1);
+			}
+		}
+		if(subtract.getDayPart()==''){
+			rtnDur.push(0);
+		}else{
+			rtnDur.push(subtract.getDayPart());
+		}
+		rtnDur.push(subtract.getByFormat('HH:mm:ss'));
+		rtnDur.push(subtract);
+		return rtnDur;
+	},
+	
+	// 日付による前後関係を判定
+	subtractDate : function(start, end){ //start:String, End:String
+		
+		var startDate = new GlideDateTime(start + ' 00:00:00');
+		var endDate = new GlideDateTime(end + ' 00:00:00');
+		
+		if(startDate.before(endDate))
+			return 0;
+		else if(startDate.equals(endDate))
+			return 1;
+		else if(startDate.after(endDate))
+			return 2;
+		else
+			return 3;
+	},
+	
+	
+	subtractTime : function(gtSta,gtEnd,gtScheduleSta,gtScheduleEnd){
+		
+		var dur = new GlideDuration('00:00:00');
+		var subSta;
+		var subEnd;
+		var dummySta = new GlideDateTime("2018-01-01 00:00:00");
+		var dummyEnd = new GlideDateTime("2018-01-01 00:00:00");
+		var dummyScheSta = new GlideDateTime("2018-01-01 00:00:00");
+		var dummyScheEnd = new GlideDateTime("2018-01-01 00:00:00");
+		
+		dummySta.add(gtSta);
+		dummyEnd.add(gtEnd);
+		dummyScheSta.add(gtScheduleSta);
+		dummyScheEnd.add(gtScheduleEnd);
+		
+		// 開始日時
+		if(!dummySta.after(dummyScheSta)){
+			// AorWS
+			subSta = gtScheduleSta;
+		}else if(!dummySta.after(dummyScheEnd)){
+			//B
+			subSta = gtSta;
+		}else if(!dummySta.before(dummyScheEnd)){
+			//WEorC
+			subSta = gtScheduleEnd;
+		}
+		
+		// 終了日時
+		if(!dummyEnd.after(dummyScheSta)){
+			// AorWS
+			subEnd = gtScheduleSta;
+		}else if(!dummyEnd.after(dummyScheEnd)){
+			//B
+			subEnd = gtEnd;
+		}else if(!dummyEnd.before(dummyScheEnd)){
+			//WEorC
+			subEnd = gtScheduleEnd;
+		}
+		return GlideTime.subtract(subSta, subEnd);
+		
+	},
+	type: 'CalculateDifferenceTime'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-01 03:04:07</sys_created_on>
+        <sys_id>4f78ac86082c97008d78de1a3d502d62</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>CalculateDifferenceTime</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_4f78ac86082c97008d78de1a3d502d62</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-03-26 06:30:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

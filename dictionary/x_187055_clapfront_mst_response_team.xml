@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Response Team" max_length="40" name="x_187055_clapfront_mst_response_team" type="collection">
+        <element choice="1" label="Inactive" mandatory="true" max_length="40" name="inactive" type="choice">
+            <choice>
+                <element value="2"/>
+                <element label="true" value="1"/>
+            </choice>
+        </element>
+        <element label="Latest label" max_length="80" name="latest_label" type="string"/>
+        <element label="Remarks" max_length="3000" name="remarks" type="string"/>
+        <element display="true" label="Response Team" mandatory="true" max_length="80" name="response_team" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element choice="3" default="1" label="Ticket Type" max_length="40" name="ticket_type" type="choice">
+            <choice>
+                <element label="Ticket" sequence="1" value="1"/>
+                <element label="故障・サポートチケット" language="ja" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element label="Value" mandatory="true" max_length="40" name="value" type="integer"/>
+    </element>
+</database>

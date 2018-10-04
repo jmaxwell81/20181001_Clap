@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="day_fault_time" label="DayWork Fault Time" language="en" table="x_187055_clapfront_timerecord">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>day_fault_time</element>
+            <help/>
+            <hint/>
+            <label>DayWork Fault Time</label>
+            <language>en</language>
+            <name>x_187055_clapfront_timerecord</name>
+            <plural>DayWork Fault Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-05 04:58:40</sys_created_on>
+            <sys_id>37b9e5130868d7008d78de1a3d502de6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>DayWork Fault Time</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_timerecord_day_fault_time_en</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-05 04:58:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

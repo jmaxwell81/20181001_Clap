@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>DataMigration_ReceicedTime_Receiver</name>
+        <run_as display_value="">32b786bf7cd643008d78429ad0968687</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-06-08 00:46:20</run_start>
+        <run_time>1969-12-31 15:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[// var grMail = new GlideRecord('x_187055_clapfront_mail');
+// grMail.query();
+// while(grMail.next()){
+// 	if(grMail.getValue('received_time') == ''){
+// 		grMail.setValue('received_time', grMail.getValue('recieve_time'));
+// 	}
+// 	if(grMail.getValue('receiver') == ''){
+// 		grMail.setValue('receiver', grMail.getValue('reciever'));
+// 	}
+	
+// 	grMail.update();
+// }
+
+var grMail = new GlideRecord('x_187055_clapfront_mail');
+grMail.query();
+while(grMail.next()){
+	if(grMail.getValue('received_time') == ''){
+		grMail.setValue('received_time', grMail.getValue('recieve_time'));
+	}
+	if(grMail.getDisplayValue('receiver') == ''){
+		grMail.setValue('receiver', grMail.getDisplayValue('reciever'));
+	}
+	
+	grMail.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-06-08 00:46:20</sys_created_on>
+        <sys_id>933cb5f9786213408d78b9fd2866c8d6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DataMigration_ReceicedTime_Receiver</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sysauto_script_933cb5f9786213408d78b9fd2866c8d6</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-18 09:42:51</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

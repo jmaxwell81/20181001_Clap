@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_187055_clapfront_problem_tbl" version="2" view="clap_prb">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Clap_Prb" name="x_187055_clapfront_problem_tbl" related_list="NULL" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">2fcdb308e4899b008d78f83d805ae2c9</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_187055_clapfront_subticket_tbl.prob_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-06 07:34:15</sys_created_on>
+            <sys_id>b93909152c22df008d780ac7a5760d97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-06 07:34:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Clap_Prb" name="x_187055_clapfront_problem_tbl" related_list="NULL" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">2fcdb308e4899b008d78f83d805ae2c9</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_187055_clapfront_incident_tbl.prob_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-06 07:34:15</sys_created_on>
+            <sys_id>f13909152c22df008d780ac7a5760d98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-06 07:34:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Clap_Prb" name="x_187055_clapfront_problem_tbl" related_list="NULL" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">2fcdb308e4899b008d78f83d805ae2c9</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_187055_clapfront_alert_tbl.prob_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-06 07:34:15</sys_created_on>
+            <sys_id>f53909152c22df008d780ac7a5760d98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-06 07:34:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Clap_Prb" name="x_187055_clapfront_problem_tbl" related_list="NULL" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">2fcdb308e4899b008d78f83d805ae2c9</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_187055_clapfront_timerecord.prob_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-06 07:34:15</sys_created_on>
+            <sys_id>f93909152c22df008d780ac7a5760d98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-06 07:34:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Clap_Prb" name="x_187055_clapfront_problem_tbl" related_list="NULL" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">2fcdb308e4899b008d78f83d805ae2c9</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_187055_clapfront_mail.prob_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-06 07:34:15</sys_created_on>
+            <sys_id>fd3909152c22df008d780ac7a5760d98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-06 07:34:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Problem - Clap_Prb" name="x_187055_clapfront_problem_tbl" related_list="NULL" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">2fcdb308e4899b008d78f83d805ae2c9</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>x_187055_clapfront_send_mail.prob_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-06 07:34:15</sys_created_on>
+            <sys_id>f13909152c22df008d780ac7a5760d99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-06 07:34:15</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Problem - Clap_Prb</calculated_name>
+            <filter/>
+            <name>x_187055_clapfront_problem_tbl</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-06 07:34:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fcdb308e4899b008d78f83d805ae2c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Problem - Clap_Prb</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_related_x_187055_clapfront_problem_tbl_clap_prb</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-06 07:34:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clap_Prb" name="clap_prb">64a28e4d0fa013004bbcb36be1050e8d</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

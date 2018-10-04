@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Inquiry" max_length="40" name="x_187055_clapfront_mst_inquiry" type="collection">
+        <element choice="1" label="Inactive" max_length="40" name="inactive" type="choice">
+            <choice>
+                <element value="2"/>
+                <element label="true" value="1"/>
+            </choice>
+        </element>
+        <element display="true" label="Inquiry" max_length="40" name="inquiry" type="string"/>
+        <element label="latest label" max_length="40" name="latest_label" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Service Type" max_length="32" name="service_type" reference="x_187055_clapfront_mst_servicetype" type="reference"/>
+        <element label="Value" max_length="40" name="value" type="integer"/>
+        <index name="index">
+            <element name="service_type"/>
+        </index>
+    </element>
+</database>

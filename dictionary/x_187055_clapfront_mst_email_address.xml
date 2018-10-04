@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Email address" max_length="40" name="x_187055_clapfront_mst_email_address" type="collection">
+        <element label="Mail From" max_length="100" name="mail_from" type="string"/>
+        <element label="Mail To" max_length="100" name="mail_to" type="string"/>
+        <element choice="3" label="Mail Type" max_length="40" name="mail_type" type="choice">
+            <choice>
+                <element label="Alert" value="2"/>
+                <element label="アラート" language="ja" value="2"/>
+                <element label="故障・サポート" language="ja" value="1"/>
+                <element label="Inquiry" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element label="Priority" max_length="40" name="priority" type="boolean"/>
+        <element choice="1" label="Service Type" max_length="40" name="service_type" type="choice">
+            <choice>
+                <element label="Office365" sequence="1" value="1"/>
+                <element label="マイポケット" sequence="2" value="2"/>
+                <element label="Bizストレージ" sequence="3" value="3"/>
+                <element label="CAS" sequence="4" value="4"/>
+                <element label="マイセキュア" sequence="5" value="5"/>
+                <element label="G Suite" sequence="6" value="6"/>
+                <element label="Agurippa基盤" sequence="7" value="7"/>
+                <element label="kakeibon" sequence="8" value="8"/>
+                <element label="HOPE基盤" sequence="9" value="9"/>
+                <element label="BOX" sequence="10" value="10"/>
+                <element label="SFOV" sequence="11" value="11"/>
+            </choice>
+        </element>
+    </element>
+</database>

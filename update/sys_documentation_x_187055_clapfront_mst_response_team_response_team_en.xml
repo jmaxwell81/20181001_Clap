@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="response_team" label="Response Team" language="en" table="x_187055_clapfront_mst_response_team">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>response_team</element>
+            <help/>
+            <hint/>
+            <label>Response Team</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_response_team</name>
+            <plural>Response Teams</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-14 06:14:04</sys_created_on>
+            <sys_id>c89c0c6f78771b808d78b9fd2866c8ec</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Response Team</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_mst_response_team_response_team_en</sys_update_name>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-17 05:32:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

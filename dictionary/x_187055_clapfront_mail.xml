@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mail" max_length="40" name="x_187055_clapfront_mail" type="collection">
+        <element label="Alert ID" max_length="32" name="alert_id" reference="x_187055_clapfront_alert_tbl" type="reference"/>
+        <element label="Archive" max_length="40" name="archive" type="boolean"/>
+        <element label="CC" max_length="1000" name="carbon_copy" type="string"/>
+        <element label="Mail Body" max_length="3000" name="mail_body" type="string"/>
+        <element label="Mail Type" max_length="40" name="mail_type" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Priority" max_length="40" name="priority" type="boolean"/>
+        <element label="Problem ID" max_length="32" name="prob_id" reference="x_187055_clapfront_problem_tbl" type="reference"/>
+        <element label="Received Time" max_length="40" name="received_time" type="glide_date_time"/>
+        <element label="Receiver" max_length="1000" name="receiver" type="string"/>
+        <element label="Sender" max_length="80" name="sender" type="string"/>
+        <element label="Service Type" max_length="80" name="service_type" type="string"/>
+        <element label="SubTicket ID" max_length="32" name="subticket_id" reference="x_187055_clapfront_subticket_tbl" type="reference"/>
+        <element label="Ticket ID" max_length="32" name="ticket_id" reference="x_187055_clapfront_incident_tbl" type="reference"/>
+        <element label="Title" max_length="100" name="title" type="string"/>
+        <index name="index">
+            <element name="alert_id"/>
+        </index>
+        <index name="index2">
+            <element name="prob_id"/>
+        </index>
+        <index name="index3">
+            <element name="subticket_id"/>
+        </index>
+        <index name="index4">
+            <element name="ticket_id"/>
+        </index>
+    </element>
+</database>

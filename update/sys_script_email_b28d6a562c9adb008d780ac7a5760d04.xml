@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>AddInfomationToClapMail</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	
+	// Add your code here
+	//送信元アドレス
+	var sender = '';
+	var displayName = 'CLAP';
+	var displayAddress = 'clapcenter-now-cs@ntt.com';
+	
+	//CC分割
+	var carbonCopy = current.getDisplayValue('carbon_copy');
+	var ccList = carbonCopy.split(',');
+	
+	//送信メール本文に、前文・本文・署名を繋げて設定
+	var mailBody = current.preamble + '\n\n' + current.mail_body + '\n\n' + current.signature;
+	
+	//送信元アドレス表示名取得
+	if(current.getValue('display_name'))
+		displayName = current.getValue('display_name');
+	//送信元アドレス取得
+	if(current.getDisplayValue('sender') != '')
+		displayAddress　= current.getDisplayValue('sender');
+	
+	sender = displayName + '<' + displayAddress + '>';
+	
+	//送信者設定
+	email.setFrom(sender);
+	//返信先アドレス設定
+	email.setReplyTo(displayAddress);
+	//CC設定
+	for(var i = 0; i < ccList.length; i++){
+		email.addAddress('cc', ccList[i]); 
+	}
+	//件名設定
+	email.setSubject(current.getDisplayValue('title'));
+	//本文設定
+	template.print(mailBody);
+	
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-05-28 07:19:24</sys_created_on>
+        <sys_id>b28d6a562c9adb008d780ac7a5760d04</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>AddInfomationToClapMail</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_email_b28d6a562c9adb008d780ac7a5760d04</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-25 08:07:19</sys_updated_on>
+    </sys_script_email>
+</record_update>

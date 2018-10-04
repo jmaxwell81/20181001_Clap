@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="afbbf8fde42497008d78f83d805ae2a6" sys_domain="global" table="x_187055_clapfront_problem_tbl" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:46:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fbbf8fde42497008d78f83d805ae2a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_problem_tbl" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">afbbf8fde42497008d78f83d805ae2a6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">9c7a34fde42497008d78f83d805ae200</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:46:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:46:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27bbf8fde42497008d78f83d805ae2a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_problem_tbl" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">afbbf8fde42497008d78f83d805ae2a6</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">27bbf8fde42497008d78f83d805ae2a8</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:46:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:48:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f90cbcfde42497008d78f83d805ae209</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_problem_tbl" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">afbbf8fde42497008d78f83d805ae2a6</sys_ui_form>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">f50cbcfde42497008d78f83d805ae207</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:48:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:43:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e541a6be4a4d7008d78f83d805ae2cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_problem_tbl" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">afbbf8fde42497008d78f83d805ae2a6</sys_ui_form>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">5654566be4a4d7008d78f83d805ae24e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:43:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:52:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af7389fb78bb1b808d78b9fd2866c85c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_187055_clapfront_problem_tbl" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">afbbf8fde42497008d78f83d805ae2a6</sys_ui_form>
+            <sys_ui_section caption="Work Manage" display_value="Work Manage" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">ab7389fb78bb1b808d78b9fd2866c859</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:52:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_187055_clapfront_problem_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:46:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afbbf8fde42497008d78f83d805ae2a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_187055_clapfront_problem_tbl</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_form_sections_afbbf8fde42497008d78f83d805ae2a6</sys_update_name>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:46:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clap_Prb" name="clap_prb">64a28e4d0fa013004bbcb36be1050e8d</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

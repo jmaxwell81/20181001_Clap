@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Recovery" section_id="f50cbcfde42497008d78f83d805ae207" sys_domain="global" table="x_187055_clapfront_problem_tbl" version="3" view="clap_prb">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-14 08:06:15</sys_created_on>
+            <sys_id>ab362ce778b71b808d78b9fd2866c89b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">f50cbcfde42497008d78f83d805ae207</sys_ui_section>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-14 08:06:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complete_time</element>
+            <position>1</position>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-14 08:06:15</sys_created_on>
+            <sys_id>23362ce778b71b808d78b9fd2866c89c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">f50cbcfde42497008d78f83d805ae207</sys_ui_section>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-14 08:06:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-14 08:06:15</sys_created_on>
+            <sys_id>a3362ce778b71b808d78b9fd2866c89c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">f50cbcfde42497008d78f83d805ae207</sys_ui_section>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-14 08:06:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>knowledge_level</element>
+            <position>3</position>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-14 08:06:15</sys_created_on>
+            <sys_id>27362ce778b71b808d78b9fd2866c89c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">f50cbcfde42497008d78f83d805ae207</sys_ui_section>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-14 08:06:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-14 08:06:15</sys_created_on>
+            <sys_id>a7362ce778b71b808d78b9fd2866c89c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">f50cbcfde42497008d78f83d805ae207</sys_ui_section>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-14 08:06:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>answer</element>
+            <position>5</position>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-14 08:06:15</sys_created_on>
+            <sys_id>2b362ce778b71b808d78b9fd2866c89c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">f50cbcfde42497008d78f83d805ae207</sys_ui_section>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-14 08:06:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remarks</element>
+            <position>6</position>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-14 08:06:15</sys_created_on>
+            <sys_id>ab362ce778b71b808d78b9fd2866c89c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Recovery" display_value="Recovery" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">f50cbcfde42497008d78f83d805ae207</sys_ui_section>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-14 08:06:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Recovery</caption>
+            <header>false</header>
+            <name>x_187055_clapfront_problem_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-02-28 09:48:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f50cbcfde42497008d78f83d805ae207</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Recovery</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_section_f50cbcfde42497008d78f83d805ae207</sys_update_name>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:48:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Clap_Prb" name="clap_prb">64a28e4d0fa013004bbcb36be1050e8d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

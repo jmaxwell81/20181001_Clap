@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.GetFormValue</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GetFormValue</name>
+        <script><![CDATA[var GetFormValue = Class.create();
+GetFormValue.prototype = {
+	initialize: function() {
+	},
+	getViewName: function(URL){
+		var grView = new GlideRecord('sys_ui_view');
+		var splitURLs = URL.split('&');
+		var splitURL;
+		var viewNm = '';
+		var viewSysId;
+		for(var i = 0 ; i < splitURLs.length; i++){
+			splitURL = splitURLs[i].split('=');
+			if(splitURL[0] == 'sysparm_view')
+				viewNm = splitURL[1];
+		}
+		if(viewNm != ''){
+			grView.addQuery('title', viewNm);
+			grView.query();
+			if(grView.next())
+				viewSysId = grView.getUniqueValue();
+		}
+		
+		
+		return viewSysId;
+	},
+	
+	
+	getFormElement: function(viewSysId){
+		var secNames = [];
+		var formElementLists = [];
+		var grSection = new GlideRecord('sys_ui_section');
+		var grSecElement;
+		
+		//　取得したViewのSys_IDからフォーム上の全てのセクションのSys_IDを取得する
+		
+		grSection.addQuery('view',viewSysId);
+		grSection.query();
+		while(grSection.next()){
+			secNames.push(grSection.getUniqueValue());
+		}
+		
+		//取得したセクションのSys_IDからセクションエレメント(フォーム上の全カラム）を取得する
+		for(var i = 0 ; i < secNames.length ; i++){
+			grSecElement = new GlideRecord('sys_ui_element');
+			grSecElement.addQuery('sys_ui_section', secNames[i]);
+			grSecElement.addQuery('type' , '');
+			grSecElement.query();
+			while(grSecElement.next()){
+				formElementLists.push(grSecElement.getValue('element'));
+				}
+		}
+		return formElementLists;
+		
+	},
+	
+	getFormElementLabel: function(formElementLists){
+		
+		var formElementLabelLists = [];
+		var grDic ;
+		for(var i = 0 ; i < formElementLists.length ; i++){
+			gs.info(formElementLists[i]);
+			grDic = new GlideRecord('sys_dictionary');
+			grDic.addQuery('element', formElementLists[i]);
+			grDic.query();
+			if(grDic.next())
+				formElementLabelLists.push(grDic.getLabel());
+			}
+		return formElementLabelLists;
+	},
+	type: 'GetFormValue'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-06 04:29:39</sys_created_on>
+        <sys_id>c155de29db5113007d9b7befbf96193b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>GetFormValue</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_c155de29db5113007d9b7befbf96193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-17 06:40:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

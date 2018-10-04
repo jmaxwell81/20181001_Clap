@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Machine" max_length="40" name="x_187055_clapfront_mst_machine" type="collection">
+        <element label="Analysis Request" max_length="40" name="analysis_request" type="string"/>
+        <element label="Hardware Vendor" max_length="40" name="hardware_vendor" type="string"/>
+        <element display="true" label="Host Name" mandatory="true" max_length="100" name="host_name" type="string"/>
+        <element choice="1" label="Inactive" max_length="40" name="inactive" type="choice">
+            <choice>
+                <element value="2"/>
+                <element label="true" value="1"/>
+            </choice>
+        </element>
+        <element label="latest label" max_length="40" name="latest_label" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Remarks" max_length="300" name="remarks" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Service" max_length="40" name="service" type="string"/>
+        <element label="Value" max_length="40" name="value" type="integer"/>
+    </element>
+</database>

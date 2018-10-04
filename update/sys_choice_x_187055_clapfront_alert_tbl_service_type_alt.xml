@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service_type_alt" table="x_187055_clapfront_alert_tbl" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Office365</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:21:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62b7e0b5086897008d78de1a3d502dde</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:39</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Office365</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>1</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67b5ac75086897008d78de1a3d502d6f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:42</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADFS</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85c520b5086897008d78de1a3d502dbc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:01</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADFS</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>2</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:19:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d367e0b5086897008d78de1a3d502dfd</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:02</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>G Suite</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>3</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:11:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20d56c75086897008d78de1a3d502d60</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:03</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>G Suite</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>3</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:11:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82d5a0b5086897008d78de1a3d502d9c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:05</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agurippa</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>4</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dab5a0b5086897008d78de1a3d502d41</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:09</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agurippa基盤</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>4</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:18:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1266c75086897008d78de1a3d502d61</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:08</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kakeibon</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>5</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0416a0b5086897008d78de1a3d502de9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:12</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kakeibon</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>5</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efa5ac75086897008d78de1a3d502d98</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:14</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HOPE</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>6</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2a520b5086897008d78de1a3d502dbb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:15</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HOPE基盤</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>6</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:11:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbf5a0b5086897008d78de1a3d502d9c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:17</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>My pocket</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>7</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5a560b5086897008d78de1a3d502d39</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:23</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>マイポケット</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>7</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:11:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8e5a0b5086897008d78de1a3d502de8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:25</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BizStorage file share</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>8</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d795ac75086897008d78de1a3d502d3d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:28</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bizストレージファイルシェア</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>8</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:12:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a16e0b5086897008d78de1a3d502df3</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:26</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Common base</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>9</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9956c75086897008d78de1a3d502d5d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:29</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>共通基盤（マイポケット/Bizスト）</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>9</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:12:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e206ac75086897008d78de1a3d502d0a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:52:30</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Box</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>10</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>309560b5086897008d78de1a3d502d26</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:45</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Box</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>10</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:12:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a516a0b5086897008d78de1a3d502df8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:47</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SFDC</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>11</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>898560b5086897008d78de1a3d502d02</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:50</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SFDC</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>11</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b938e0b5086897008d78de1a3d502da6</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:51</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAS</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>12</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:19:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66a7a0b5086897008d78de1a3d502d05</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:53</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAS</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>12</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:11:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2c5ac75086897008d78de1a3d502d9a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:55</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>My Secure Business</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>13</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:10:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4db56c75086897008d78de1a3d502d5e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:57</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>マイセキュアビジネス</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>13</sequence>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:11:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>590660b5086897008d78de1a3d502d1c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-04-11 08:51:59</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>14</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-06-01 01:26:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66058a2bcc925f008d785942d9b561d1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:27:54</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type_alt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>その他</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sequence>14</sequence>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-06-01 01:27:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4435c26bcc925f008d785942d9b5617d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-06-01 01:28:05</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service_type_alt</element>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-02-28 08:09:55</sys_created_on>
+            <sys_id>3e55d52bdbf42300e59c9fd2ca96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service_type_alt</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_choice_x_187055_clapfront_alert_tbl_service_type_alt</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-02-28 08:09:55</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

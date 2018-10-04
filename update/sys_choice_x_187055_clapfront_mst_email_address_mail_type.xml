@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mail_type" table="x_187055_clapfront_mst_email_address" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mail_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>故障・サポート</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_mst_email_address</name>
+            <sequence/>
+            <sys_created_by>iso</sys_created_by>
+            <sys_created_on>2018-02-16 07:45:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79dcaeb5db1c13007e1e711ebf961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iso</sys_updated_by>
+            <sys_updated_on>2018-02-16 07:45:30</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mail_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alert</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_email_address</name>
+            <sequence/>
+            <sys_created_by>iso</sys_created_by>
+            <sys_created_on>2018-02-16 07:44:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71bce2f5db1c13007e1e711ebf961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iso</sys_updated_by>
+            <sys_updated_on>2018-02-16 07:44:48</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mail_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>アラート</label>
+            <language>ja</language>
+            <name>x_187055_clapfront_mst_email_address</name>
+            <sequence/>
+            <sys_created_by>iso</sys_created_by>
+            <sys_created_on>2018-02-16 07:45:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5cce2f5db1c13007e1e711ebf96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iso</sys_updated_by>
+            <sys_updated_on>2018-02-16 07:45:09</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mail_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inquiry</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_email_address</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-23 08:07:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07d476c40f2013004bbcb36be1050e08</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-23 08:07:12</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mail_type</element>
+            <name>x_187055_clapfront_mst_email_address</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-23 08:06:35</sys_created_on>
+            <sys_id>0755192bdbf42300e59c9fd2ca9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mail_type</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_choice_x_187055_clapfront_mst_email_address_mail_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-23 08:06:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

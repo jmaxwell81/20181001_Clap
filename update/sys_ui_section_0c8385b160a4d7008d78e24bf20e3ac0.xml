@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Trouble" section_id="0c8385b160a4d7008d78e24bf20e3ac0" sys_domain="global" table="x_187055_clapfront_alert_tbl" version="3" view="clap_alt">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>85d2c9fb78bb1b808d78b9fd2866c819</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <text/>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>8dd2c9fb78bb1b808d78b9fd2866c819</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <text/>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>81d2c9fb78bb1b808d78b9fd2866c81a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <text/>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>85d2c9fb78bb1b808d78b9fd2866c81a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <text/>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>85d2c9fb78bb1b808d78b9fd2866c819</element>
+            <position>0</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>49d2c9fb78bb1b808d78b9fd2866c81a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_type_alt</element>
+            <position>1</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c9d2c9fb78bb1b808d78b9fd2866c81a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sos_name</element>
+            <position>2</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>4dd2c9fb78bb1b808d78b9fd2866c81a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inquiry_time</element>
+            <position>3</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>cdd2c9fb78bb1b808d78b9fd2866c81a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>41d2c9fb78bb1b808d78b9fd2866c81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8dd2c9fb78bb1b808d78b9fd2866c819</element>
+            <position>5</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c1d2c9fb78bb1b808d78b9fd2866c81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_type_ref</element>
+            <position>6</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>45d2c9fb78bb1b808d78b9fd2866c81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>host_name</element>
+            <position>7</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c5d2c9fb78bb1b808d78b9fd2866c81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recovery_time</element>
+            <position>8</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>49d2c9fb78bb1b808d78b9fd2866c81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c9d2c9fb78bb1b808d78b9fd2866c81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>10</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>4dd2c9fb78bb1b808d78b9fd2866c81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_impact</element>
+            <position>11</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>cdd2c9fb78bb1b808d78b9fd2866c81b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_trouble_occurs_time</element>
+            <position>12</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>41d2c9fb78bb1b808d78b9fd2866c81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c1d2c9fb78bb1b808d78b9fd2866c81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_recovery_time</element>
+            <position>14</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>45d2c9fb78bb1b808d78b9fd2866c81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c5d2c9fb78bb1b808d78b9fd2866c81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>16</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>49d2c9fb78bb1b808d78b9fd2866c81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>17</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c9d2c9fb78bb1b808d78b9fd2866c81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>81d2c9fb78bb1b808d78b9fd2866c81a</element>
+            <position>18</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>4dd2c9fb78bb1b808d78b9fd2866c81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>known_to_user</element>
+            <position>19</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>cdd2c9fb78bb1b808d78b9fd2866c81c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>20</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>41d2c9fb78bb1b808d78b9fd2866c81d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>85d2c9fb78bb1b808d78b9fd2866c81a</element>
+            <position>21</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c1d2c9fb78bb1b808d78b9fd2866c81d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trouble_type</element>
+            <position>22</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>45d2c9fb78bb1b808d78b9fd2866c81d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>23</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c5d2c9fb78bb1b808d78b9fd2866c81d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trouble_description</element>
+            <position>24</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>49d2c9fb78bb1b808d78b9fd2866c81d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>25</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c9d2c9fb78bb1b808d78b9fd2866c81d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hardware_failure_part</element>
+            <position>26</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>4dd2c9fb78bb1b808d78b9fd2866c81d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>27</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>cdd2c9fb78bb1b808d78b9fd2866c81d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>28</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>41d2c9fb78bb1b808d78b9fd2866c81e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hardware_failure_part_free</element>
+            <position>29</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c1d2c9fb78bb1b808d78b9fd2866c81e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>30</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>45d2c9fb78bb1b808d78b9fd2866c81e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trouble_cause</element>
+            <position>31</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c5d2c9fb78bb1b808d78b9fd2866c81e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>answered_time</element>
+            <position>32</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>49d2c9fb78bb1b808d78b9fd2866c81e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>33</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c9d2c9fb78bb1b808d78b9fd2866c81e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>response_team</element>
+            <position>34</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>4dd2c9fb78bb1b808d78b9fd2866c81e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>knowledge_level</element>
+            <position>35</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>cdd2c9fb78bb1b808d78b9fd2866c81e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>36</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>41d2c9fb78bb1b808d78b9fd2866c81f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>answer</element>
+            <position>37</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>c1d2c9fb78bb1b808d78b9fd2866c81f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remarks</element>
+            <position>38</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-08-15 04:49:38</sys_created_on>
+            <sys_id>45d2c9fb78bb1b808d78b9fd2866c81f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trouble" display_value="Trouble" name="x_187055_clapfront_alert_tbl" sys_domain="global" view="14f28a45db0413008a1cf08c0c961991">0c8385b160a4d7008d78e24bf20e3ac0</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:49:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Trouble</caption>
+            <header>false</header>
+            <name>x_187055_clapfront_alert_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-02-28 10:20:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c8385b160a4d7008d78e24bf20e3ac0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Trouble</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_section_0c8385b160a4d7008d78e24bf20e3ac0</sys_update_name>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-02-28 10:20:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Clap_ALT" name="clap_alt">14f28a45db0413008a1cf08c0c961991</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_187055_clapfront_common_tbl" label="サブチケット" max_length="40" name="x_187055_clapfront_subticket_tbl" sizeclass="2" type="collection">
+        <element label="Answer" max_length="300" name="answer" type="string"/>
+        <element label="Answered Time" max_length="40" name="answered_time" type="glide_date_time"/>
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Inquiry Time" max_length="40" name="inquiry_time" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Remarks" max_length="300" name="remarks" type="string"/>
+        <element label="Request Charge" max_length="40" name="request_charge" type="string"/>
+        <element attributes="tree_picker=true" default="javascript:current.assignment_group;" label="Tier2 charge" max_length="32" name="tier2_charge" reference="sys_user_group" reference_qual="parent=86a6d628d1749b40adba8d18883881a9^ORsys_idSTARTSWITH86a6d628d1749b40adba8d18883881a9^EQ" reference_qual_condition="parent=86a6d628d1749b40adba8d18883881a9^ORsys_idSTARTSWITH86a6d628d1749b40adba8d18883881a9^EQ" type="reference"/>
+    </element>
+</database>

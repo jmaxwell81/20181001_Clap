@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.IAExecute</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>IAExecute</name>
+        <script><![CDATA[var IAExecute = Class.create();
+IAExecute.prototype = {
+	initialize: function() {
+	},
+	excuteClap: function(email){
+		
+		var isClapMail = false;
+		var grMail;
+		
+		var emailObjDirect = email.direct;
+		var emailObjCC = email.copied;
+		var mailToList = emailObjDirect.split(',');
+		var mailCCList = emailObjCC.split(',');
+		
+		// 受信メールのCC・送信先アドレスを重複禁止でリスト化
+		mailToList = mailToList.concat(mailCCList);
+		
+		for(var i = 0; i < mailToList.length; i++){
+			grMail = new GlideRecord('x_187055_clapfront_mst_clap_tagert_address');
+			grMail.addQuery('recipients', mailToList[i]);
+			grMail.query();
+			if(grMail.next()){
+				isClapMail = true;
+			}	
+		}
+		return isClapMail;
+	},
+	
+	type: 'IAExecute'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-08-07 07:35:14</sys_created_on>
+        <sys_id>86db54952c3f57808d780ac7a5760d10</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IAExecute</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_86db54952c3f57808d780ac7a5760d10</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-08-08 05:46:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

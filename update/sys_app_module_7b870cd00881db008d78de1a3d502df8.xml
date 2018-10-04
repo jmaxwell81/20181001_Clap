@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="ClapFront">364041c90f2013004bbcb36be1050ede</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_187055_clapfront_mail">service_type=kakeibon^archive=false^EQ<item endquery="false" field="service_type" goto="false" newquery="false" operator="=" or="false" value="kakeibon"/>
+            <item endquery="false" field="archive" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>kakeibon</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_187055_clapfront_mail</name>
+        <order>68</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>takaharu.yamashita</sys_created_by>
+        <sys_created_on>2018-03-20 10:40:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b870cd00881db008d78de1a3d502df8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>kakeibon</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_app_module_7b870cd00881db008d78de1a3d502df8</sys_update_name>
+        <sys_updated_by>yuichi.tomiya</sys_updated_by>
+        <sys_updated_on>2018-08-08 04:39:41</sys_updated_on>
+        <timeline_page/>
+        <title>kakeibon</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

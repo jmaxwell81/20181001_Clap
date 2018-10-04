@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="bc7bc90ae4e497008d78f83d805ae28e" sys_domain="global" table="x_187055_clapfront_mst_machine" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>host_name</element>
+            <position>0</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>675669d808741b008d78de1a3d502d72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>e75669d808741b008d78de1a3d502d72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model</element>
+            <position>2</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>6b5669d808741b008d78de1a3d502d72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>analysis_request</element>
+            <position>3</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>eb5669d808741b008d78de1a3d502d72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hardware_vendor</element>
+            <position>4</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>6f5669d808741b008d78de1a3d502d72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>ef5669d808741b008d78de1a3d502d72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>635669d808741b008d78de1a3d502d73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remarks</element>
+            <position>7</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>e35669d808741b008d78de1a3d502d73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>675669d808741b008d78de1a3d502d73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service</element>
+            <position>9</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>e75669d808741b008d78de1a3d502d73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>6b5669d808741b008d78de1a3d502d73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>eb5669d808741b008d78de1a3d502d73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>12</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>6f5669d808741b008d78de1a3d502d73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <position>13</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>ef5669d808741b008d78de1a3d502d73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sequence</element>
+            <position>14</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>635669d808741b008d78de1a3d502d74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inactive</element>
+            <position>15</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>e35669d808741b008d78de1a3d502d74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latest_label</element>
+            <position>16</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>675669d808741b008d78de1a3d502d74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>e75669d808741b008d78de1a3d502d74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>18</position>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-08 07:17:50</sys_created_on>
+            <sys_id>6b5669d808741b008d78de1a3d502d74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_187055_clapfront_mst_machine" sys_domain="global" view="Default view">bc7bc90ae4e497008d78f83d805ae28e</sys_ui_section>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-08 07:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_187055_clapfront_mst_machine</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>takaharu.yamashita</sys_created_by>
+            <sys_created_on>2018-03-01 05:33:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc7bc90ae4e497008d78f83d805ae28e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_187055_clapfront_mst_machine</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_section_bc7bc90ae4e497008d78f83d805ae28e</sys_update_name>
+            <sys_updated_by>takaharu.yamashita</sys_updated_by>
+            <sys_updated_on>2018-03-01 05:33:53</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

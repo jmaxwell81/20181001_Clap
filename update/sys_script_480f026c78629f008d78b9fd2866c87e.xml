@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_187055_clapfront_mst_sender_address</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Abort insert same in Mst SenderAddress</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var grAddr = new GlideRecord('x_187055_clapfront_mst_sender_address');
+	var isUpd = true;
+	var ticketType = current.getValue('ticket_type');
+	var supportType = current.getValue('support_type');
+	var errMsg = '';
+	
+	grAddr.addQuery('ticket_type', ticketType);
+	if(ticketType == 1){ //ticket
+		grAddr.addQuery('service_type_tic', current.getValue('service_type_tic'));
+		errMsg = 'チケット種別とサービス種別(故障・サポート)の組み合わせは既に登録されています。';
+		
+	}else if(ticketType == 2){ //alert ticket
+		
+		grAddr.addQuery('support_type', supportType);
+		if(supportType == 1){
+			grAddr.addQuery('service_type_alt', current.getValue('service_type_alt'));
+			errMsg = 'チケット種別とサービス種別(アラート)の組み合わせは既に登録されています。';
+		}else if(supportType == 2){
+			grAddr.addQuery('service_type_maint', current.getValue('service_type_maint'));
+			errMsg = 'チケット種別とサービス種別(メンテナンス)の組み合わせは既に登録されています。';
+		}
+	}
+	
+	grAddr.query();
+	if(grAddr.hasNext()){
+		isUpd = false;
+	}
+	
+	if(isUpd == false){
+		gs.addErrorMessage(errMsg);
+		current.setAbortAction(true);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-06-04 04:52:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>480f026c78629f008d78b9fd2866c87e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Abort insert same in Mst SenderAddress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_480f026c78629f008d78b9fd2866c87e</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-08-13 00:41:35</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=480f026c78629f008d78b9fd2866c87e"/>
+</record_update>

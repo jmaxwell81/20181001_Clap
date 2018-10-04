@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script>javascript: new IAExecute().excuteClap(email);</condition_script>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Mail Control (Reply)</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[processMailAction();
+
+function processMailAction(){
+	
+	// 定数
+	var CST_MAIL_TYPE = '故障・サポート';
+	var CST_SERVICE_TYPE = 'その他';
+	var COLUMN_MAIL_FROM = 'mail_from';
+	var COLUMN_MAIL_TO = 'mail_to';
+	var COLUMN_MAIL_TYPE = 'mail_type';
+	var COLUMN_SERVICE_TYPE = 'service_type';
+	var COLUMN_PRIORITY = 'priority';
+	
+	// emailオブジェクト
+	var emailObjDirect = email.direct;
+	var emailObjCC = email.copied;
+	var mailFrom = email.from;
+	var mailToList = emailObjDirect.split(',');
+	var mailCCList = emailObjCC.split(',');
+	
+	// 初期値
+	var mailType = CST_MAIL_TYPE;
+	var serviceType = CST_SERVICE_TYPE;
+	var isPriority = 0;
+	
+	var searchMstRecordList = [];
+	var searchMstFromList = [];
+	var searchMstToList = [];
+	var searchMstList = [];
+	var combiTypeList = [];
+	
+	
+	// 受信メールのCC・送信先アドレスを重複禁止でリスト化
+	mailToList = mailToList.concat(mailCCList);
+	//gs.debug('処理１開始\n mailFromList:' + mailFrom + '//mailToList:' + mailToList);
+	searchMstRecordList = searchMstRecord(mailFrom, mailToList);
+	
+	
+	/* searchMstRecordList is...
+ 	* 0rec　・・・ go to func searchMstRecordOfOneSide
+ 	* 1rec　・・・ get mail_type and service_type , and ticket creation.
+ 	* 2 or more　・・・ go to func checkCombinationOfType
+ 	*/
+	
+	if(searchMstRecordList.length == 0){
+		searchMstFromList =　searchMstRecordOfFrom(mailFrom);
+		searchMstToList = searchMstRecordOfTo(mailToList);
+		searchMstList = searchMstFromList.concat(searchMstToList);
+		
+		//gs.debug('処理4終了\nsearchMstList:' + searchMstList);
+		if(searchMstList.length == 0){
+			mailType = CST_MAIL_TYPE;
+			serviceType = CST_SERVICE_TYPE;
+			isPriority = 0;
+			//gs.debug('処理4.1終了\nmailType:' + mailType + '//serviceType:' + serviceType + '//isPriority:' + isPriority);
+			
+		}else if(searchMstList.length == 1){
+			mailType = searchMstList[0][2];
+			serviceType = searchMstList[0][3];
+			isPriority = searchMstList[0][4];
+			//gs.debug('処理4.2終了\nmailType:' + mailType + '//serviceType:' + serviceType + '//isPriority:' + isPriority);
+			
+		}else{
+			combiTypeList = checkCombinationOfType(searchMstList);
+			mailType = combiTypeList[0];
+			serviceType = combiTypeList[1];
+			isPriority = combiTypeList[2];
+			//gs.debug('処理4.3終了\nmailType:' + mailType + '//serviceType:' + serviceType + '//isPriority:' + isPriority);
+			
+		}
+		
+	}else if(searchMstRecordList.length == 1){
+		mailType = searchMstRecordList[0][2];
+		serviceType = searchMstRecordList[0][3];
+		isPriority = searchMstRecordList[0][4];
+		//gs.debug('処理3.2終了\nmailType:' + mailType + '//serviceType:' + serviceType + '//isPriority:' + isPriority);
+		
+	}else if(searchMstRecordList.length >= 2){
+		//gs.debug('処理3.3→処理５開始\n searchMstRecordList.length' + searchMstRecordList.length);
+		combiTypeList = checkCombinationOfType(searchMstRecordList);
+		mailType = combiTypeList[0];
+		serviceType = combiTypeList[1];
+		isPriority = combiTypeList[2];
+		
+	}else{
+		gs.error('異常終了\nsearchMstRecordList' + searchMstRecordList);
+	}
+	
+	createMailRecord(email, isPriority, mailType, serviceType);
+	
+	
+	/* メールアドレス管理マスタの全レコードから送信先アドレスリスト,CC・送信元アドレスリストを照合
+ 	*  input: mailFrom  送信元アドレス,　mailToList　　CC・送信元アドレスリスト
+ 	*  output: mstList  送信先アドレス,送信元アドレス,メール種別,サービス種別,重要度のデータを１セットにした配列のリスト
+ 	*/
+	
+	function searchMstRecord(mailFrom, mailToList){
+		
+		var grMstAddr = new GlideRecord('x_187055_clapfront_mst_email_address');
+		var recordList = [];
+		var mstList = [];
+		
+		//　check master against mail data.
+		grMstAddr.addNotNullQuery(COLUMN_MAIL_TO);
+		grMstAddr.addNotNullQuery(COLUMN_MAIL_FROM);
+		grMstAddr.query();
+		while(grMstAddr.next()){
+			
+			//check masterFROM against mailSender.
+			if(mailFrom.indexOf(grMstAddr.getValue(COLUMN_MAIL_FROM)) > -1){
+				
+				//check masterTO against mailDirect.
+				for(var j = 0 ; j < mailToList.length ; j++){
+					if(mailToList[j].indexOf(grMstAddr.getValue(COLUMN_MAIL_TO)) > -1){
+						recordList = [];
+						recordList.push(grMstAddr.getValue(COLUMN_MAIL_FROM));
+						recordList.push(grMstAddr.getValue(COLUMN_MAIL_TO));
+						recordList.push(grMstAddr.getDisplayValue(COLUMN_MAIL_TYPE));
+						recordList.push(grMstAddr.getDisplayValue(COLUMN_SERVICE_TYPE));
+						recordList.push(grMstAddr.getValue(COLUMN_PRIORITY));
+						mstList.push(recordList);
+						gs.error('処理３:' + recordList + '\nmstList件数:'+ mstList.length);
+					}
+				}
+			}
+		}
+		//gs.debug('searchMstRecord関数処理終了\nmstList:' + mstList);
+		return mstList;
+	}
+	
+	
+	function searchMstRecordOfFrom(mailFrom){
+		
+		var grMstAddr = new GlideRecord('x_187055_clapfront_mst_email_address');
+		var mstRecordList = [];
+		var rtnList = [];
+		
+		grMstAddr.addNullQuery(COLUMN_MAIL_TO);
+		grMstAddr.query();
+		//gs.debug('searchMstRecordOfFrom関数\nフィルタ後件数:'+ grMstAddr.getRowCount());
+		while(grMstAddr.next()){
+			if(mailFrom.indexOf(grMstAddr.getValue(COLUMN_MAIL_FROM)) > -1){
+				mstRecordList = [];
+				mstRecordList.push(grMstAddr.getValue(COLUMN_MAIL_FROM));
+				mstRecordList.push(grMstAddr.getValue(COLUMN_MAIL_TO));
+				mstRecordList.push(grMstAddr.getDisplayValue(COLUMN_MAIL_TYPE));
+				mstRecordList.push(grMstAddr.getDisplayValue(COLUMN_SERVICE_TYPE));
+				mstRecordList.push(grMstAddr.getValue(COLUMN_PRIORITY));
+				rtnList.push(mstRecordList);
+			}
+		}
+		//gs.debug('searchMstRecordOfFrom関数処理結果\nrtnList:' + rtnList);
+		return rtnList;
+	}
+	
+	function searchMstRecordOfTo(mailToList){
+		
+		var grMstAddr = new GlideRecord('x_187055_clapfront_mst_email_address');
+		var mstRecordList = [];
+		var rtnList = [];
+		
+		grMstAddr.addNullQuery(COLUMN_MAIL_FROM);
+		grMstAddr.query();
+		//gs.debug('searchMstRecordOfTo関数\nフィルタ後件数:'+ grMstAddr.getRowCount());
+		while(grMstAddr.next()){
+			
+			//check masterTO against mailDirect.
+			for(var i = 0 ; i < mailToList.length ; i++){
+				if(mailToList[i].indexOf(grMstAddr.getValue(COLUMN_MAIL_TO)) > -1){
+					mstRecordList = [];
+					mstRecordList.push(grMstAddr.getValue(COLUMN_MAIL_FROM));
+					mstRecordList.push(grMstAddr.getValue(COLUMN_MAIL_TO));
+					mstRecordList.push(grMstAddr.getDisplayValue(COLUMN_MAIL_TYPE));
+					mstRecordList.push(grMstAddr.getDisplayValue(COLUMN_SERVICE_TYPE));
+					mstRecordList.push(grMstAddr.getValue(COLUMN_PRIORITY));
+					rtnList.push(mstRecordList);
+				}
+			}
+		}
+		//gs.debug('searchMstRecordOfTo関数処理結果\n rtnList:' + rtnList);
+		return rtnList;
+	}
+	
+	function checkCombinationOfType(searchMstRecordList){
+		//gs.debug('処理5開始：searchMstRecordList' + searchMstRecordList.length);
+		var mailType = searchMstRecordList[0][2];
+		var serviceType = searchMstRecordList[0][3];
+		var isPriority =  searchMstRecordList[0][4];
+		var tmpList= [];
+		var rtnTypeList = [];
+		
+		for(var i = 1; i < searchMstRecordList.length; i++){
+			tmpList = searchMstRecordList[i];
+			if(mailType != tmpList[2] || serviceType != tmpList[3]){
+				mailType = CST_MAIL_TYPE;
+				serviceType = CST_SERVICE_TYPE;
+				isPriority = 0;
+				break;
+			}
+			if(tmpList[4] > isPriority){
+				isPriority = tmpList[4];
+			}
+		}
+		rtnTypeList.push(mailType);
+		rtnTypeList.push(serviceType);
+		rtnTypeList.push(isPriority);
+		//gs.debug('checkCombinationOfType処理終了\nrtnTypeList:' + rtnTypeList);
+		return rtnTypeList;
+	}
+	
+	function createMailRecord(email, isPriority, mailType, serviceType){
+		//gs.debug('createMailRecord関数処理開始\n mailType:'+ mailType + '//serviceType:' + serviceType);
+		var curTime =　new GlideDateTime().getValue();
+		
+		current.initialize();
+		current.setValue('received_time', curTime);
+		current.setValue('sender', email.from);
+		current.setValue('receiver', email.direct);
+		current.setValue('title', email.subject);
+		current.setValue('mail_body', email.body_text);
+		current.setValue('carbon_copy', email.copied);
+		current.setValue('mail_type', mailType);
+		current.setValue('service_type', serviceType);
+		current.setValue('priority', isPriority);
+		current.insert();
+		
+	}
+}]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-23 09:14:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d701f4960415f008d78e24bf20e3a65</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Mail Control (Reply)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sysevent_in_email_action_4d701f4960415f008d78e24bf20e3a65</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-08-07 07:36:14</sys_updated_on>
+        <table>x_187055_clapfront_mail</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

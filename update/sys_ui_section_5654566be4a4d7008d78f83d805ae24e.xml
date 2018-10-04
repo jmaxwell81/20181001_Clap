@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Statistics" section_id="5654566be4a4d7008d78f83d805ae24e" sys_domain="global" table="x_187055_clapfront_problem_tbl" version="3" view="clap_prb">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:44:09</sys_created_on>
+            <sys_id>9b84926be4a4d7008d78f83d805ae29c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">5654566be4a4d7008d78f83d805ae24e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:44:09</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fault_time</element>
+            <position>1</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:44:09</sys_created_on>
+            <sys_id>1f84926be4a4d7008d78f83d805ae29c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">5654566be4a4d7008d78f83d805ae24e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:44:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>round_fault_time</element>
+            <position>2</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:44:09</sys_created_on>
+            <sys_id>9f84926be4a4d7008d78f83d805ae29c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">5654566be4a4d7008d78f83d805ae24e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:44:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:44:09</sys_created_on>
+            <sys_id>1384926be4a4d7008d78f83d805ae29d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">5654566be4a4d7008d78f83d805ae24e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:44:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>day_fault_time</element>
+            <position>4</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:44:09</sys_created_on>
+            <sys_id>9384926be4a4d7008d78f83d805ae29d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">5654566be4a4d7008d78f83d805ae24e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:44:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>round_day_fault_time</element>
+            <position>5</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:44:09</sys_created_on>
+            <sys_id>1784926be4a4d7008d78f83d805ae29d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">5654566be4a4d7008d78f83d805ae24e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:44:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:44:09</sys_created_on>
+            <sys_id>9784926be4a4d7008d78f83d805ae29d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_187055_clapfront_problem_tbl" sys_domain="global" view="64a28e4d0fa013004bbcb36be1050e8d">5654566be4a4d7008d78f83d805ae24e</sys_ui_section>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:44:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Statistics</caption>
+            <header>false</header>
+            <name>x_187055_clapfront_problem_tbl</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-03-06 02:43:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5654566be4a4d7008d78f83d805ae24e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Statistics</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_section_5654566be4a4d7008d78f83d805ae24e</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-03-06 02:43:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Clap_Prb" name="clap_prb">64a28e4d0fa013004bbcb36be1050e8d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

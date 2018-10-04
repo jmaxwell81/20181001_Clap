@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Customer" max_length="40" name="x_187055_clapfront_mst_customer" type="collection">
+        <element display="true" label="Customer" max_length="40" name="customer" type="string"/>
+        <element label="Customer ID" max_length="40" name="customer_id" type="string"/>
+        <element label="Domain Name" max_length="40" name="domain_name" type="string"/>
+        <element choice="3" label="Inactive" max_length="40" name="inactive" type="choice">
+            <choice>
+                <element value="2"/>
+                <element label="true" value="1"/>
+            </choice>
+        </element>
+        <element label="latest label" max_length="40" name="latest_label" type="string"/>
+        <element choice="3" default="1" label="Operational Status" max_length="40" name="operational_status" type="choice">
+            <choice>
+                <element label="In Service" sequence="1" value="1"/>
+                <element label="サービス中" language="ja" sequence="1" value="1"/>
+                <element label="Abolition" sequence="2" value="2"/>
+                <element label="廃止" language="ja" sequence="2" value="2"/>
+                <element label="Non Completion" sequence="3" value="3"/>
+                <element label="未竣工" language="ja" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="ReferColumn" max_length="40" name="refercolumn" type="string"/>
+        <element label="Remarks" max_length="3000" name="remarks" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Service Type" max_length="32" name="service_type" reference="x_187055_clapfront_mst_servicetype" reference_qual="inactive=2^EQ" reference_qual_condition="inactive=2^EQ" type="reference"/>
+        <element label="コード" mandatory="true" max_length="40" name="value" type="integer"/>
+        <index name="index">
+            <element name="service_type"/>
+        </index>
+    </element>
+</database>

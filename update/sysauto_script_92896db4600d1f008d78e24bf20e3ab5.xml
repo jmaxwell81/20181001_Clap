@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>test</name>
+        <run_as display_value="">32b786bf7cd643008d78429ad0968687</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-03-22 07:04:19</run_start>
+        <run_time>1969-12-31 15:00:00</run_time>
+        <run_type>once</run_type>
+        <script><![CDATA[var grInc;
+
+var strInq = ['2018-03-19 15:00:00','2018-03-19 22:00:00','2018-03-20 01:00:00','2018-03-20 05:00:00','2018-03-20 06:00:00','2018-03-20 08:00:00','2018-03-20 11:00:00'];
+var strAns = ['2018-03-20 15:00:00','2018-03-21 00:00:00','2018-03-21 01:00:00','2018-03-21 05:00:00','2018-03-21 06:00:00','2018-03-21 08:00:00','2018-03-21 11:00:00','2018-03-21 15:00:00','2018-03-22 00:00:00','2018-03-22 01:00:00','2018-03-22 05:00:00','2018-03-22 06:00:00','2018-03-22 08:00:00','2018-03-22 11:00:00','2018-03-22 15:00:00','2018-03-23 06:00:00'];
+
+for(var i = 0 ; i<strAns.length; i++){
+	
+	for (var j = 0 ; j< strInq.length; j++){
+		grInc = new GlideRecord('x_187055_clapfront_incident_tbl');
+		grInc.initialize();
+		grInc.customer_txt = '日時テスト2';
+		grInc.inquiry_time = new GlideDateTime(strInq[j]);
+		grInc.answered_time = new GlideDateTime(strAns[i]);
+		grInc.update();
+		grInc.short_description ='問：' + strInq[j] + '回答：'+ strAns[i] + '差分：' + grInc.day_fault_time ;
+		grInc.update();
+	}
+	
+}
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-22 07:17:52</sys_created_on>
+        <sys_id>92896db4600d1f008d78e24bf20e3ab5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sysauto_script_92896db4600d1f008d78e24bf20e3ab5</sys_update_name>
+        <sys_updated_by>takaharu.yamashita</sys_updated_by>
+        <sys_updated_on>2018-03-30 08:52:14</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

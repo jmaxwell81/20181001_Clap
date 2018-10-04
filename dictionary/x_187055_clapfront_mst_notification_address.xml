@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Notification Address" max_length="40" name="x_187055_clapfront_mst_notification_address" type="collection">
+        <element display="true" label="Notification Address" max_length="1000" name="notification_address" type="string"/>
+        <element attributes="tree_picker=true" label="Notification Group" max_length="32" name="notification_group" reference="sys_user_group" reference_qual="parent=86a6d628d1749b40adba8d18883881a9^ORsys_idSTARTSWITH86a6d628d1749b40adba8d18883881a9^EQ" reference_qual_condition="parent=86a6d628d1749b40adba8d18883881a9^ORsys_idSTARTSWITH86a6d628d1749b40adba8d18883881a9^EQ" type="reference"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <index name="index">
+            <element name="notification_group"/>
+        </index>
+    </element>
+</database>

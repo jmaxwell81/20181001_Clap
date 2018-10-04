@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.GetChoiceListCallerSendMail</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetChoiceListCallerSendMail</name>
+        <script><![CDATA[var GetChoiceListCallerSendMail = Class.create();
+GetChoiceListCallerSendMail.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getMailId: function(){
+		var ChoiceList = [];
+		var ticIdList = ['ticket_id', 'alert_id', 'subticket_id', 'prob_id'];
+		var grMail = new GlideRecord("x_187055_clapfront_mail");
+		var isHasValue = '';
+		
+		for(var i = 0; i < ticIdList.length; i++){
+			isHasValue = current.getValue(ticIdList[i]);
+			if(isHasValue){
+				grMail.addQuery(ticIdList[i], isHasValue);
+			}
+		}
+		grMail.query();
+		while(grMail.next()){
+			ChoiceList.push(grMail.getUniqueValue());
+		}
+		
+		return 'sys_idIN' + ChoiceList;
+	},
+	getReplyContents: function(){
+		var ChoiceList = [];
+		var grSub = new GlideRecord("x_187055_clapfront_subticket_tbl");
+		var ticIdList = ['ticket_id', 'alert_id', 'subticket_id', 'prob_id'];
+		var isHasValue = '';
+		
+		for(var i = 0; i < ticIdList.length; i++){
+			isHasValue = current.getValue(ticIdList[i]);
+			if(isHasValue){
+				grSub.addQuery(ticIdList[i], isHasValue);
+			}
+		}
+		grSub.query();
+		while(grSub.next()){
+			ChoiceList.push(grSub.getUniqueValue());
+		}
+		
+		return 'sys_idIN' + ChoiceList;
+		
+	},
+	
+	
+	type: 'GetChoiceListCallerSendMail'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-06-13 01:24:34</sys_created_on>
+        <sys_id>3537ffdb2c6653408d780ac7a5760df1</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>GetChoiceListCallerSendMail</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_3537ffdb2c6653408d780ac7a5760df1</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-14 04:44:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="inactive" table="x_187055_clapfront_mst_customer" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inactive</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>true</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sequence/>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-07 07:23:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e51e5c8808701b008d78de1a3d502d6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-07 07:23:39</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inactive</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>false</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sequence/>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-07 07:23:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c2ed88808701b008d78de1a3d502d29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-07 07:23:49</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>inactive</element>
+            <name>x_187055_clapfront_mst_customer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azusa.iso</sys_created_by>
+            <sys_created_on>2018-03-07 07:23:39</sys_created_on>
+            <sys_id>c355192bdbf42300e59c9fd2ca9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>inactive</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_choice_x_187055_clapfront_mst_customer_inactive</sys_update_name>
+            <sys_updated_by>azusa.iso</sys_updated_by>
+            <sys_updated_on>2018-03-07 07:23:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

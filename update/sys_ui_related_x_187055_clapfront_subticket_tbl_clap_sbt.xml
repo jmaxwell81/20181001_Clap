@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_187055_clapfront_subticket_tbl" version="2" view="clap_sbt">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SubTicket - Clap_Sbt" name="x_187055_clapfront_subticket_tbl" related_list="NULL" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">8c0eb708e4899b008d78f83d805ae262</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_187055_clapfront_subticket_tbl.subticket_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-10 05:15:18</sys_created_on>
+            <sys_id>40c897c27837d7808d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-10 05:15:18</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SubTicket - Clap_Sbt" name="x_187055_clapfront_subticket_tbl" related_list="NULL" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">8c0eb708e4899b008d78f83d805ae262</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:aa095f89cc3b17808d785942d9b561b2</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-10 05:15:18</sys_created_on>
+            <sys_id>44c897c27837d7808d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-10 05:15:18</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SubTicket - Clap_Sbt" name="x_187055_clapfront_subticket_tbl" related_list="NULL" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">8c0eb708e4899b008d78f83d805ae262</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_187055_clapfront_mail.subticket_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-10 05:15:18</sys_created_on>
+            <sys_id>48c897c27837d7808d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-10 05:15:18</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SubTicket - Clap_Sbt" name="x_187055_clapfront_subticket_tbl" related_list="NULL" sys_domain="global" view="5bdef5890fa013004bbcb36be1050e93">8c0eb708e4899b008d78f83d805ae262</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_187055_clapfront_send_mail.subticket_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-10 05:15:18</sys_created_on>
+            <sys_id>4cc897c27837d7808d78b9fd2866c872</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-10 05:15:18</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>SubTicket - Clap_Sbt</calculated_name>
+            <filter/>
+            <name>x_187055_clapfront_subticket_tbl</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>yuichi.tomiya</sys_created_by>
+            <sys_created_on>2018-08-10 05:15:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c0eb708e4899b008d78f83d805ae262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SubTicket - Clap_Sbt</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_ui_related_x_187055_clapfront_subticket_tbl_clap_sbt</sys_update_name>
+            <sys_updated_by>yuichi.tomiya</sys_updated_by>
+            <sys_updated_on>2018-08-10 05:15:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Clap_Sbt" name="clap_sbt">5bdef5890fa013004bbcb36be1050e93</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

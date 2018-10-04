@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="TimeRecord" max_length="40" name="x_187055_clapfront_timerecord" type="collection">
+        <element label="Alert ID" max_length="32" name="alert_id" reference="x_187055_clapfront_alert_tbl" type="reference"/>
+        <element label="Assigned to" max_length="40" name="assigned_to" type="string"/>
+        <element label="Assignment group" max_length="40" name="assignment_group" type="string"/>
+        <element label="DayWork Fault Time" max_length="40" name="day_fault_time" type="glide_duration"/>
+        <element label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Fault Time" max_length="40" name="fault_time" type="glide_duration"/>
+        <element label="Operated User" max_length="40" name="operated_user" type="string"/>
+        <element label="Problem ID" max_length="32" name="prob_id" reference="x_187055_clapfront_problem_tbl" type="reference"/>
+        <element label="Round DayWork Fault Time" max_length="40" name="round_day_fault_time" type="glide_duration"/>
+        <element label="Round Fault Time" max_length="40" name="round_fault_time" type="glide_duration"/>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="SubTicket ID" max_length="32" name="subticket_id" reference="x_187055_clapfront_subticket_tbl" type="reference"/>
+        <element label="Task Type" max_length="40" name="task_type" type="string"/>
+        <element label="Ticket ID" max_length="32" name="ticket_id" reference="x_187055_clapfront_incident_tbl" type="reference"/>
+        <index name="index">
+            <element name="alert_id"/>
+        </index>
+        <index name="index2">
+            <element name="prob_id"/>
+        </index>
+        <index name="index3">
+            <element name="subticket_id"/>
+        </index>
+        <index name="index4">
+            <element name="ticket_id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>assignment_group</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-26 09:16:05</sys_created_on>
+        <sys_id>85716ecd0fe013004bbcb36be1050e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_ui_policy_action_85716ecd0fe013004bbcb36be1050e5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-26 09:16:05</sys_updated_on>
+        <table>x_187055_clapfront_common</table>
+        <ui_policy display_value="Assignment group Mandatory">2531eacd0fe013004bbcb36be1050e98</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

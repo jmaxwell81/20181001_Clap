@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>新規 - 問題チケット作成</label>
+        <language>ja</language>
+        <name>sys_app_module</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>yamashita</sys_created_by>
+        <sys_created_on>2018-02-05 05:22:19</sys_created_on>
+        <sys_id>b052e516db8013008a1cf08c0c96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>新規 - 問題チケット作成</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_translated_b052e516db8013008a1cf08c0c96190f</sys_update_name>
+        <sys_updated_by>yamashita</sys_updated_by>
+        <sys_updated_on>2018-02-05 05:22:19</sys_updated_on>
+        <value>Create New Problem Ticket</value>
+    </sys_translated>
+</record_update>

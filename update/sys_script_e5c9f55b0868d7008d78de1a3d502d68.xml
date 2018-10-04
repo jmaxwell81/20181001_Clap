@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_187055_clapfront_problem_tbl</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_187055_clapfront_problem_tbl">start_timeISNOTEMPTY^complete_timeISNOTEMPTY^EQ<item endquery="false" field="start_time" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="complete_time" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SubtractTime for Problem</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[setFaultTime();
+
+function setFaultTime() {
+	
+	// Add your code here
+	var start = new GlideDateTime(current.start_time.getDisplayValue());
+	var end = new GlideDateTime(current.complete_time.getDisplayValue());
+	var cdt = new CalculateDifferenceTime();
+	var fault = GlideDateTime.subtract(start, end);
+	var dayFault = cdt.calcTime(start,end);
+	
+	current.fault_time = fault.getDayPart() + '日 ' + fault.getByFormat('HH:mm:ss');
+	current.day_fault_time = dayFault[0] + '日 ' + dayFault[1];
+	current.round_fault_time = calcRoundTime(fault.getDayPart(), fault.getByFormat('HH:mm:ss'));
+	current.round_day_fault_time = calcRoundTime(dayFault[0], dayFault[1]);
+	
+}
+
+function calcRoundTime(day , time){
+	var sum = Number(day)*24*60 + Number(time.substr(0,2))*60 + Number(time.substr(3,2));
+	var sumHour = sum / 60;
+	var roundTime = 0;
+	var i = 0;
+	
+	while(roundTime < sumHour){
+		if(roundTime > sumHour){
+			break;
+		}
+		roundTime += 5;
+		
+	}
+	return roundTime ;
+}
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-05 06:09:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5c9f55b0868d7008d78de1a3d502d68</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SubtractTime for Problem</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_e5c9f55b0868d7008d78de1a3d502d68</sys_update_name>
+        <sys_updated_by>takaharu.yamashita</sys_updated_by>
+        <sys_updated_on>2018-03-08 07:46:23</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e5c9f55b0868d7008d78de1a3d502d68"/>
+</record_update>

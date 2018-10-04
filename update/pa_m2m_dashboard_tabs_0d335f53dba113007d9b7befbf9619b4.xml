@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="日本語設定で作成したダッシュボード">cf13df53dba113007d9b7befbf961926</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>B041395</sys_created_by>
+        <sys_created_on>2018-04-24 05:42:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d335f53dba113007d9b7befbf9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cf13df53dba113007d9b7befbf961926</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_0d335f53dba113007d9b7befbf9619b4</sys_update_name>
+        <sys_updated_by>B041395</sys_updated_by>
+        <sys_updated_on>2018-04-24 05:42:13</sys_updated_on>
+        <tab display_value="新しいタブ">81335f53dba113007d9b7befbf9619b3</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

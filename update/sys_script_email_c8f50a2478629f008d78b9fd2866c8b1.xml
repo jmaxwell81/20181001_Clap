@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>NotificationToClapAlert</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	
+	// Add your code here
+	//送信元アドレスの設定
+	var grSender = new GlideRecord('x_187055_clapfront_mst_sender_address');
+	var subject = ''; //件名
+	
+	//送信元アドレス
+	var sender = '';
+	var displayName = 'CLAP';
+	var displayAddress = 'clapcenter-now-cs@ntt.com';
+	
+	var shortDesc = current.short_description; //概要格納
+	var serviceType = ''; //サービス種別格納
+	var desc = ''; //回答格納
+	var mailBody = ''; //メール本文内容
+	
+	//送信元アドレスマスタからチケット種別・対応区分・サービス種別の値でフィルタして送信元アドレスを取得
+	grSender.addQuery('ticket_type', '2');
+	grSender.addQuery('support_type', current.getValue('support_type'));
+	
+	//対応区分がアラートの場合、【サービス種別】【AdditionalText/ログ検知内容】を取得
+	if(current.getValue('support_type') == 1){
+		serviceType = current.getDisplayValue('service_type_alt');
+		desc = current.description;
+		
+		grSender.addQuery('service_type_alt', current.getValue('service_type_alt'));
+		
+		//対応区分がメンテナンスの場合、【サービス種別】を取得
+	}else if(current.getValue('support_type') == 2){
+		serviceType = current.getDisplayValue('service_type_maint');
+		
+		grSender.addQuery('service_type_maint', current.getValue('service_type_maint'));
+	}
+	grSender.query();
+	if(grSender.next()){
+		//送信元アドレス表示名取得
+		if(grSender.getValue('display_name'))
+			displayName = grSender.getDisplayValue('display_name');
+		//送信元アドレス取得
+		if(grSender.getDisplayValue('sender') != '')
+			displayAddress　= grSender.getDisplayValue('sender');
+	}
+	
+	//送信元アドレス作成
+	sender = displayName + '<' + displayAddress + '>';
+	
+	//件名の作成
+	subject = '【' + current.getValue('number') + '】 ' + serviceType + ' アサイン先組織変更通知';
+	
+	//メール本文の作成
+	mailBody = shortDesc + '\n\n' + desc;
+	
+	//通知メールに設定
+	email.setSubject(subject);
+	email.setFrom(sender);
+	email.setReplyTo(displayAddress);
+	template.print(mailBody);
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-06-04 04:40:15</sys_created_on>
+        <sys_id>c8f50a2478629f008d78b9fd2866c8b1</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>NotificationToClapAlert</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_email_c8f50a2478629f008d78b9fd2866c8b1</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-06-25 07:06:10</sys_updated_on>
+    </sys_script_email>
+</record_update>

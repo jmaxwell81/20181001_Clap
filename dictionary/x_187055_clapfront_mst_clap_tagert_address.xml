@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Clap Tagert Address" max_length="40" name="x_187055_clapfront_mst_clap_tagert_address" type="collection">
+        <element label="Receive address" mandatory="true" max_length="80" name="recipients" type="string"/>
+        <element label="Remarks" max_length="3000" name="remarks" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mst Knowledge Level" max_length="40" name="x_187055_clapfront_mst_knowledge_level" type="collection">
+        <element choice="1" label="Inactive" mandatory="true" max_length="40" name="inactive" type="choice">
+            <choice>
+                <element label="true" sequence="1" value="1"/>
+                <element sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element display="true" label="Knowledge Level" mandatory="true" max_length="80" name="knowledge_level" type="string"/>
+        <element label="Latest label" max_length="40" name="latest_label" type="string"/>
+        <element label="Remarks" max_length="3000" name="remarks" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Value" mandatory="true" max_length="40" name="value" type="integer"/>
+    </element>
+</database>

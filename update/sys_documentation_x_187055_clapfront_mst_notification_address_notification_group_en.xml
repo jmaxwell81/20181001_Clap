@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="notification_group" label="Notification Group" language="en" table="x_187055_clapfront_mst_notification_address">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>notification_group</element>
+            <help/>
+            <hint/>
+            <label>Notification Group</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_notification_address</name>
+            <plural>Notification Groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sho.sakai</sys_created_by>
+            <sys_created_on>2018-06-04 01:55:13</sys_created_on>
+            <sys_id>0078a920ccae5f008d785942d9b561f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notification Group</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_mst_notification_address_notification_group_en</sys_update_name>
+            <sys_updated_by>sho.sakai</sys_updated_by>
+            <sys_updated_on>2018-06-04 01:55:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>number</element>
+        <name>x_187055_clapfront_alert_tbl</name>
+        <style>background-color:#CC99FF;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-08-15 05:28:33</sys_created_on>
+        <sys_id>caab497f78bb1b808d78b9fd2866c870</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_187055_clapfront_alert_tbl</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_ui_style_caab497f78bb1b808d78b9fd2866c870</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-08-23 05:10:11</sys_updated_on>
+        <value>javascript: new SetStylesFromTaskSLA().pauseTicket(current.status,current.pause_start,current.pause_end);</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=caab497f78bb1b808d78b9fd2866c870"/>
+</record_update>

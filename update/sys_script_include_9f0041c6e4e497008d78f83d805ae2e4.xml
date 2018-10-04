@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_187055_clapfront.CheckWeekendOrHoliday</api_name>
+        <client_callable>false</client_callable>
+        <description>土日祝日検索</description>
+        <name>CheckWeekendOrHoliday</name>
+        <script><![CDATA[var CheckWeekendOrHoliday = Class.create();
+CheckWeekendOrHoliday.prototype = {
+	initialize: function() {
+	},
+	checkWeekendOrHoliday: function(gdtDate){
+		
+		var calcDate = new GlideDateTime(gdtDate.getDate() + ' 00:00:00');
+		var holiday = false;
+		var schedule;
+		var gr_schedule = new GlideRecord('cmn_schedule');
+		gr_schedule.addQuery('name','Holiday');
+		gr_schedule.query();
+		if(gr_schedule.next()){
+			schedule = new GlideSchedule(gr_schedule.getUniqueValue());
+			if(schedule.isInSchedule(calcDate)){
+				holiday = true;
+			}
+		}
+		
+		if(calcDate.getDayOfWeekUTC() > 5){
+			holiday = true;
+		}
+	
+		return holiday;
+	},
+	type: 'CheckWeekendOrHoliday'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sho.sakai</sys_created_by>
+        <sys_created_on>2018-03-01 04:44:35</sys_created_on>
+        <sys_id>9f0041c6e4e497008d78f83d805ae2e4</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>CheckWeekendOrHoliday</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_script_include_9f0041c6e4e497008d78f83d805ae2e4</sys_update_name>
+        <sys_updated_by>sho.sakai</sys_updated_by>
+        <sys_updated_on>2018-03-22 06:27:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

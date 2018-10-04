@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Problem activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_187055_clapfront_problem_tbl_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>y.tsujinaka</sys_created_by>
+        <sys_created_on>2018-03-09 07:17:29</sys_created_on>
+        <sys_id>d8ef26ace4b01b008d78f83d805ae241</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_187055_clapfront_problem_tbl_activity.fields</sys_name>
+        <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+        <sys_update_name>sys_properties_d8ef26ace4b01b008d78f83d805ae241</sys_update_name>
+        <sys_updated_by>y.tsujinaka</sys_updated_by>
+        <sys_updated_on>2018-03-09 07:17:29</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,cmdb_ci,state,impact,priority,opened_by,work_notes,comments,*Attachments*,task_type</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=d8ef26ace4b01b008d78f83d805ae241"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="service_type" label="Service Type" language="en" table="x_187055_clapfront_mst_servicetype">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>service_type</element>
+            <help/>
+            <hint/>
+            <label>Service Type</label>
+            <language>en</language>
+            <name>x_187055_clapfront_mst_servicetype</name>
+            <plural>Service Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>yamashita</sys_created_by>
+            <sys_created_on>2018-02-15 09:08:31</sys_created_on>
+            <sys_id>14563d65dbd013007e1e711ebf961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Service Type</sys_name>
+            <sys_package display_value="ClapFront" source="x_187055_clapfront">e6649d740f77030057cd8e8ce1050e92</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ClapFront">e6649d740f77030057cd8e8ce1050e92</sys_scope>
+            <sys_update_name>sys_documentation_x_187055_clapfront_mst_servicetype_service_type_en</sys_update_name>
+            <sys_updated_by>yamashita</sys_updated_by>
+            <sys_updated_on>2018-02-15 09:08:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
